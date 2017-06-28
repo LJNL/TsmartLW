@@ -1,0 +1,1659 @@
++ test -f config.h
++ test -f config.h
+make  all-recursive
++ make all-recursive
+make[1]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25'
++ grep rsyncable
++ gzip --help
++ printf %s --rsyncable
++ cat ./.prev-version
++ /bin/sed -n s/^\(sc_[a-zA-Z0-9_-]*\):.*/\1/p ./maint.mk ./cfg.mk
++ ./build-aux/vc-list-files -C .
++ echo 1
++ test -f ./build-aux/git-version-gen
++ echo yes
++ fail=
++ target_option=k
++ has_opt=no
++ sane_makeflags=w -- SHELL=sh\ -xv
++ test -z 1
++ test -n x86_64-pc-linux-gnu
++ true
++ sane_makeflags=-w
++ skip_next=no
++ test no = yes
++ test no = yes
++ failcom=exit 1
++ dot_seen=no
++ sed s/-recursive//
++ echo all-recursive
++ target=all
++ list=po lib doc src tests gnulib-tests
++ echo Making all in po
+Making all in po
++ test po = .
++ local_target=all
++ CDPATH=:
++ cd po
++ make all
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/po'
++ echo Making all in lib
+Making all in lib
++ test lib = .
++ local_target=all
++ CDPATH=:
++ cd lib
++ make all
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/lib'
+Makefile:1687: target '.deps/alloca.Po' given more than once in the same rule
++ echo   GEN      alloca.h
+  GEN      alloca.h
++ rm -f alloca.h-t alloca.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ cat ./alloca.in.h
++ mv -f alloca.h-t alloca.h
++ echo   GEN      configmake.h
+  GEN      configmake.h
++ rm -f configmake.h-t
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ echo #define PREFIX "/usr/local"
++ echo #define EXEC_PREFIX "/usr/local"
++ echo #define BINDIR "/usr/local/bin"
++ echo #define SBINDIR "/usr/local/sbin"
++ echo #define LIBEXECDIR "/usr/local/libexec"
++ echo #define DATAROOTDIR "/usr/local/share"
++ echo #define DATADIR "/usr/local/share"
++ echo #define SYSCONFDIR "/usr/local/etc"
++ echo #define SHAREDSTATEDIR "/usr/local/com"
++ echo #define LOCALSTATEDIR "/usr/local/var"
++ echo #define RUNSTATEDIR "/usr/local/var/run"
++ echo #define INCLUDEDIR "/usr/local/include"
++ echo #define OLDINCLUDEDIR "/usr/include"
++ echo #define DOCDIR "/usr/local/share/doc/grep"
++ echo #define INFODIR "/usr/local/share/info"
++ echo #define HTMLDIR "/usr/local/share/doc/grep"
++ echo #define DVIDIR "/usr/local/share/doc/grep"
++ echo #define PDFDIR "/usr/local/share/doc/grep"
++ echo #define PSDIR "/usr/local/share/doc/grep"
++ echo #define LIBDIR "/usr/local/lib"
++ echo #define LISPDIR "/usr/local/share/emacs/site-lisp"
++ echo #define LOCALEDIR "/usr/local/share/locale"
++ echo #define MANDIR "/usr/local/share/man"
++ echo #define MANEXT ""
++ echo #define PKGDATADIR "/usr/local/share/grep"
++ echo #define PKGINCLUDEDIR "/usr/local/include/grep"
++ echo #define PKGLIBDIR "/usr/local/lib/grep"
++ echo #define PKGLIBEXECDIR "/usr/local/libexec/grep"
++ sed /""/d
++ mv -f configmake.h-t configmake.h
++ echo   GEN      c++defs.h
+  GEN      c++defs.h
++ rm -f c++defs.h-t c++defs.h
++ sed -n -e /_GL_CXXDEFS/,$p
++ mv c++defs.h-t c++defs.h
++ echo   GEN      warn-on-use.h
+  GEN      warn-on-use.h
++ rm -f warn-on-use.h-t warn-on-use.h
++ sed -n -e /^.ifndef/,$p
++ mv warn-on-use.h-t warn-on-use.h
++ echo   GEN      ctype.h
+  GEN      ctype.h
++ rm -f ctype.h-t ctype.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_CTYPE_H@|<ctype.h>|g -e s/@GNULIB_ISBLANK@/1/g -e s/@HAVE_ISBLANK@/1/g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv ctype.h-t ctype.h
++ echo   GEN      arg-nonnull.h
+  GEN      arg-nonnull.h
++ rm -f arg-nonnull.h-t arg-nonnull.h
++ sed -n -e /GL_ARG_NONNULL/,$p
++ mv arg-nonnull.h-t arg-nonnull.h
++ echo   GEN      dirent.h
+  GEN      dirent.h
++ rm -f dirent.h-t dirent.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@HAVE_DIRENT_H@|1|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_DIRENT_H@|<dirent.h>|g -e s/@GNULIB_OPENDIR@/1/g -e s/@GNULIB_READDIR@/1/g -e s/@GNULIB_REWINDDIR@/0/g -e s/@GNULIB_CLOSEDIR@/1/g -e s/@GNULIB_DIRFD@/1/g -e s/@GNULIB_FDOPENDIR@/1/g -e s/@GNULIB_SCANDIR@/0/g -e s/@GNULIB_ALPHASORT@/0/g -e s/@HAVE_OPENDIR@/1/g -e s/@HAVE_READDIR@/1/g -e s/@HAVE_REWINDDIR@/1/g -e s/@HAVE_CLOSEDIR@/1/g -e s|@HAVE_DECL_DIRFD@|1|g -e s|@HAVE_DECL_FDOPENDIR@|1|g -e s|@HAVE_FDOPENDIR@|1|g -e s|@HAVE_SCANDIR@|1|g -e s|@HAVE_ALPHASORT@|1|g -e s|@REPLACE_OPENDIR@|0|g -e s|@REPLACE_CLOSEDIR@|0|g -e s|@REPLACE_DIRFD@|0|g -e s|@REPLACE_FDOPENDIR@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv dirent.h-t dirent.h
++ echo   GEN      fcntl.h
+  GEN      fcntl.h
++ rm -f fcntl.h-t fcntl.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_FCNTL_H@|<fcntl.h>|g -e s/@GNULIB_FCNTL@/1/g -e s/@GNULIB_NONBLOCKING@/0/g -e s/@GNULIB_OPEN@/1/g -e s/@GNULIB_OPENAT@/1/g -e s|@HAVE_FCNTL@|1|g -e s|@HAVE_OPENAT@|1|g -e s|@REPLACE_FCNTL@|1|g -e s|@REPLACE_OPEN@|0|g -e s|@REPLACE_OPENAT@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv fcntl.h-t fcntl.h
++ echo   GEN      iconv.h
+  GEN      iconv.h
++ rm -f iconv.h-t iconv.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_ICONV_H@|<iconv.h>|g -e s/@GNULIB_ICONV@/1/g -e s|@ICONV_CONST@||g -e s|@REPLACE_ICONV@|0|g -e s|@REPLACE_ICONV_OPEN@|0|g -e s|@REPLACE_ICONV_UTF@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv iconv.h-t iconv.h
++ echo   GEN      inttypes.h
+  GEN      inttypes.h
++ rm -f inttypes.h-t inttypes.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s/@HAVE_INTTYPES_H@/1/g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_INTTYPES_H@|<inttypes.h>|g -e s/@PRI_MACROS_BROKEN@/0/g -e s/@APPLE_UNIVERSAL_BUILD@/0/g -e s/@HAVE_LONG_LONG_INT@/1/g -e s/@HAVE_UNSIGNED_LONG_LONG_INT@/1/g -e s/@PRIPTR_PREFIX@/"l"/g -e s/@GNULIB_IMAXABS@/0/g -e s/@GNULIB_IMAXDIV@/0/g -e s/@GNULIB_STRTOIMAX@/1/g -e s/@GNULIB_STRTOUMAX@/1/g -e s/@HAVE_DECL_IMAXABS@/1/g -e s/@HAVE_DECL_IMAXDIV@/1/g -e s/@HAVE_DECL_STRTOIMAX@/1/g -e s/@HAVE_DECL_STRTOUMAX@/1/g -e s/@REPLACE_STRTOIMAX@/0/g -e s/@REPLACE_STRTOUMAX@/0/g -e s/@INT32_MAX_LT_INTMAX_MAX@/1/g -e s/@INT64_MAX_EQ_LONG_MAX@/1/g -e s/@UINT32_MAX_LT_UINTMAX_MAX@/1/g -e s/@UINT64_MAX_EQ_ULONG_MAX@/1/g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv inttypes.h-t inttypes.h
++ echo   GEN      langinfo.h
+  GEN      langinfo.h
++ rm -f langinfo.h-t langinfo.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@HAVE_LANGINFO_H@|1|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_LANGINFO_H@|<langinfo.h>|g -e s/@GNULIB_NL_LANGINFO@/1/g -e s|@HAVE_LANGINFO_CODESET@|1|g -e s|@HAVE_LANGINFO_T_FMT_AMPM@|1|g -e s|@HAVE_LANGINFO_ERA@|1|g -e s|@HAVE_LANGINFO_YESEXPR@|1|g -e s|@HAVE_NL_LANGINFO@|1|g -e s|@REPLACE_NL_LANGINFO@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv langinfo.h-t langinfo.h
++ echo   GEN      locale.h
+  GEN      locale.h
++ rm -f locale.h-t locale.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_LOCALE_H@|<locale.h>|g -e s/@GNULIB_LOCALECONV@/1/g -e s/@GNULIB_SETLOCALE@/IN_GREP_GNULIB_TESTS/g -e s/@GNULIB_DUPLOCALE@/0/g -e s|@HAVE_DUPLOCALE@|1|g -e s|@HAVE_XLOCALE_H@|1|g -e s|@REPLACE_LOCALECONV@|0|g -e s|@REPLACE_SETLOCALE@|0|g -e s|@REPLACE_DUPLOCALE@|0|g -e s|@REPLACE_STRUCT_LCONV@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv locale.h-t locale.h
++ echo   GEN      unused-parameter.h
+  GEN      unused-parameter.h
++ rm -f unused-parameter.h-t unused-parameter.h
++ sed -n -e /GL_UNUSED_PARAMETER/,$p
++ mv unused-parameter.h-t unused-parameter.h
++ echo   GEN      stdio.h
+  GEN      stdio.h
++ rm -f stdio.h-t stdio.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_STDIO_H@|<stdio.h>|g -e s/@GNULIB_DPRINTF@/0/g -e s/@GNULIB_FCLOSE@/0/g -e s/@GNULIB_FDOPEN@/IN_GREP_GNULIB_TESTS/g -e s/@GNULIB_FFLUSH@/0/g -e s/@GNULIB_FGETC@/1/g -e s/@GNULIB_FGETS@/1/g -e s/@GNULIB_FOPEN@/0/g -e s/@GNULIB_FPRINTF@/1/g -e s/@GNULIB_FPRINTF_POSIX@/0/g -e s/@GNULIB_FPURGE@/0/g -e s/@GNULIB_FPUTC@/1/g -e s/@GNULIB_FPUTS@/1/g -e s/@GNULIB_FREAD@/1/g -e s/@GNULIB_FREOPEN@/0/g -e s/@GNULIB_FSCANF@/1/g -e s/@GNULIB_FSEEK@/0/g -e s/@GNULIB_FSEEKO@/0/g -e s/@GNULIB_FTELL@/0/g -e s/@GNULIB_FTELLO@/0/g -e s/@GNULIB_FWRITE@/1/g -e s/@GNULIB_GETC@/1/g -e s/@GNULIB_GETCHAR@/1/g -e s/@GNULIB_GETDELIM@/0/g -e s/@GNULIB_GETLINE@/0/g -e s/@GNULIB_OBSTACK_PRINTF@/0/g -e s/@GNULIB_OBSTACK_PRINTF_POSIX@/0/g -e s/@GNULIB_PCLOSE@/0/g -e s/@GNULIB_PERROR@/0/g -e s/@GNULIB_POPEN@/0/g -e s/@GNULIB_PRINTF@/1/g -e s/@GNULIB_PRINTF_POSIX@/0/g -e s/@GNULIB_PUTC@/1/g -e s/@GNULIB_PUTCHAR@/1/g -e s/@GNULIB_PUTS@/1/g -e s/@GNULIB_REMOVE@/0/g -e s/@GNULIB_RENAME@/0/g -e s/@GNULIB_RENAMEAT@/0/g -e s/@GNULIB_SCANF@/1/g -e s/@GNULIB_SNPRINTF@/IN_GREP_GNULIB_TESTS/g -e s/@GNULIB_SPRINTF_POSIX@/0/g -e s/@GNULIB_STDIO_H_NONBLOCKING@/0/g -e s/@GNULIB_STDIO_H_SIGPIPE@/0/g -e s/@GNULIB_TMPFILE@/0/g -e s/@GNULIB_VASPRINTF@/0/g -e s/@GNULIB_VDPRINTF@/0/g -e s/@GNULIB_VFPRINTF@/1/g -e s/@GNULIB_VFPRINTF_POSIX@/0/g -e s/@GNULIB_VFSCANF@/0/g -e s/@GNULIB_VSCANF@/0/g -e s/@GNULIB_VPRINTF@/1/g -e s/@GNULIB_VPRINTF_POSIX@/0/g -e s/@GNULIB_VSNPRINTF@/0/g -e s/@GNULIB_VSPRINTF_POSIX@/0/g
++ sed -e s|@HAVE_DECL_FPURGE@|1|g -e s|@HAVE_DECL_FSEEKO@|1|g -e s|@HAVE_DECL_FTELLO@|1|g -e s|@HAVE_DECL_GETDELIM@|1|g -e s|@HAVE_DECL_GETLINE@|1|g -e s|@HAVE_DECL_OBSTACK_PRINTF@|1|g -e s|@HAVE_DECL_SNPRINTF@|1|g -e s|@HAVE_DECL_VSNPRINTF@|1|g -e s|@HAVE_DPRINTF@|1|g -e s|@HAVE_FSEEKO@|1|g -e s|@HAVE_FTELLO@|1|g -e s|@HAVE_PCLOSE@|1|g -e s|@HAVE_POPEN@|1|g -e s|@HAVE_RENAMEAT@|1|g -e s|@HAVE_VASPRINTF@|1|g -e s|@HAVE_VDPRINTF@|1|g -e s|@REPLACE_DPRINTF@|0|g -e s|@REPLACE_FCLOSE@|0|g -e s|@REPLACE_FDOPEN@|0|g -e s|@REPLACE_FFLUSH@|0|g -e s|@REPLACE_FOPEN@|0|g -e s|@REPLACE_FPRINTF@|0|g -e s|@REPLACE_FPURGE@|0|g -e s|@REPLACE_FREOPEN@|0|g -e s|@REPLACE_FSEEK@|0|g -e s|@REPLACE_FSEEKO@|0|g -e s|@REPLACE_FTELL@|0|g -e s|@REPLACE_FTELLO@|0|g -e s|@REPLACE_GETDELIM@|0|g -e s|@REPLACE_GETLINE@|0|g -e s|@REPLACE_OBSTACK_PRINTF@|0|g -e s|@REPLACE_PERROR@|0|g -e s|@REPLACE_POPEN@|0|g -e s|@REPLACE_PRINTF@|0|g -e s|@REPLACE_REMOVE@|0|g -e s|@REPLACE_RENAME@|0|g -e s|@REPLACE_RENAMEAT@|0|g -e s|@REPLACE_SNPRINTF@|0|g -e s|@REPLACE_SPRINTF@|0|g -e s|@REPLACE_STDIO_READ_FUNCS@|0|g -e s|@REPLACE_STDIO_WRITE_FUNCS@|0|g -e s|@REPLACE_TMPFILE@|0|g -e s|@REPLACE_VASPRINTF@|0|g -e s|@REPLACE_VDPRINTF@|0|g -e s|@REPLACE_VFPRINTF@|0|g -e s|@REPLACE_VPRINTF@|0|g -e s|@REPLACE_VSNPRINTF@|0|g -e s|@REPLACE_VSPRINTF@|0|g -e s|@ASM_SYMBOL_PREFIX@||g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv stdio.h-t stdio.h
++ echo   GEN      stdlib.h
+  GEN      stdlib.h
++ rm -f stdlib.h-t stdlib.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_STDLIB_H@|<stdlib.h>|g -e s/@GNULIB__EXIT@/0/g -e s/@GNULIB_ATOLL@/0/g -e s/@GNULIB_CALLOC_POSIX@/0/g -e s/@GNULIB_CANONICALIZE_FILE_NAME@/0/g -e s/@GNULIB_GETLOADAVG@/0/g -e s/@GNULIB_GETSUBOPT@/0/g -e s/@GNULIB_GRANTPT@/0/g -e s/@GNULIB_MALLOC_POSIX@/1/g -e s/@GNULIB_MBTOWC@/1/g -e s/@GNULIB_MKDTEMP@/0/g -e s/@GNULIB_MKOSTEMP@/0/g -e s/@GNULIB_MKOSTEMPS@/0/g -e s/@GNULIB_MKSTEMP@/0/g -e s/@GNULIB_MKSTEMPS@/0/g -e s/@GNULIB_POSIX_OPENPT@/0/g -e s/@GNULIB_PTSNAME@/0/g -e s/@GNULIB_PTSNAME_R@/0/g -e s/@GNULIB_PUTENV@/IN_GREP_GNULIB_TESTS/g -e s/@GNULIB_QSORT_R@/0/g -e s/@GNULIB_RANDOM@/0/g -e s/@GNULIB_RANDOM_R@/0/g -e s/@GNULIB_REALLOC_POSIX@/1/g -e s/@GNULIB_REALPATH@/0/g -e s/@GNULIB_RPMATCH@/0/g -e s/@GNULIB_SECURE_GETENV@/0/g -e s/@GNULIB_SETENV@/IN_GREP_GNULIB_TESTS/g -e s/@GNULIB_STRTOD@/0/g -e s/@GNULIB_STRTOLL@/1/g -e s/@GNULIB_STRTOULL@/1/g -e s/@GNULIB_SYSTEM_POSIX@/0/g -e s/@GNULIB_UNLOCKPT@/0/g -e s/@GNULIB_UNSETENV@/IN_GREP_GNULIB_TESTS/g -e s/@GNULIB_WCTOMB@/1/g
++ sed -e s|@HAVE__EXIT@|1|g -e s|@HAVE_ATOLL@|1|g -e s|@HAVE_CANONICALIZE_FILE_NAME@|1|g -e s|@HAVE_DECL_GETLOADAVG@|1|g -e s|@HAVE_GETSUBOPT@|1|g -e s|@HAVE_GRANTPT@|1|g -e s|@HAVE_MKDTEMP@|1|g -e s|@HAVE_MKOSTEMP@|1|g -e s|@HAVE_MKOSTEMPS@|1|g -e s|@HAVE_MKSTEMP@|1|g -e s|@HAVE_MKSTEMPS@|1|g -e s|@HAVE_POSIX_OPENPT@|1|g -e s|@HAVE_PTSNAME@|1|g -e s|@HAVE_PTSNAME_R@|1|g -e s|@HAVE_RANDOM@|1|g -e s|@HAVE_RANDOM_H@|1|g -e s|@HAVE_RANDOM_R@|1|g -e s|@HAVE_REALPATH@|1|g -e s|@HAVE_RPMATCH@|1|g -e s|@HAVE_SECURE_GETENV@|1|g -e s|@HAVE_DECL_SETENV@|1|g -e s|@HAVE_STRTOD@|1|g -e s|@HAVE_STRTOLL@|1|g -e s|@HAVE_STRTOULL@|1|g -e s|@HAVE_STRUCT_RANDOM_DATA@|1|g -e s|@HAVE_SYS_LOADAVG_H@|0|g -e s|@HAVE_UNLOCKPT@|1|g -e s|@HAVE_DECL_UNSETENV@|1|g -e s|@REPLACE_CALLOC@|0|g -e s|@REPLACE_CANONICALIZE_FILE_NAME@|0|g -e s|@REPLACE_MALLOC@|0|g -e s|@REPLACE_MBTOWC@|0|g -e s|@REPLACE_MKSTEMP@|0|g -e s|@REPLACE_PTSNAME@|0|g -e s|@REPLACE_PTSNAME_R@|0|g -e s|@REPLACE_PUTENV@|0|g -e s|@REPLACE_QSORT_R@|0|g -e s|@REPLACE_RANDOM_R@|0|g -e s|@REPLACE_REALLOC@|0|g -e s|@REPLACE_REALPATH@|0|g -e s|@REPLACE_SETENV@|0|g -e s|@REPLACE_STRTOD@|0|g -e s|@REPLACE_UNSETENV@|0|g -e s|@REPLACE_WCTOMB@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _Noreturn/r ../build-aux/snippet/_Noreturn.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv stdlib.h-t stdlib.h
++ echo   GEN      string.h
+  GEN      string.h
++ rm -f string.h-t string.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_STRING_H@|<string.h>|g -e s/@GNULIB_FFSL@/0/g -e s/@GNULIB_FFSLL@/0/g -e s/@GNULIB_MBSLEN@/1/g -e s/@GNULIB_MBSNLEN@/0/g -e s/@GNULIB_MBSCHR@/0/g -e s/@GNULIB_MBSRCHR@/0/g -e s/@GNULIB_MBSSTR@/1/g -e s/@GNULIB_MBSCASECMP@/1/g -e s/@GNULIB_MBSNCASECMP@/0/g -e s/@GNULIB_MBSPCASECMP@/0/g -e s/@GNULIB_MBSCASESTR@/0/g -e s/@GNULIB_MBSCSPN@/0/g -e s/@GNULIB_MBSPBRK@/0/g -e s/@GNULIB_MBSSPN@/0/g -e s/@GNULIB_MBSSEP@/0/g -e s/@GNULIB_MBSTOK_R@/0/g -e s/@GNULIB_MEMCHR@/1/g -e s/@GNULIB_MEMMEM@/0/g -e s/@GNULIB_MEMPCPY@/1/g -e s/@GNULIB_MEMRCHR@/1/g -e s/@GNULIB_RAWMEMCHR@/0/g -e s/@GNULIB_STPCPY@/1/g -e s/@GNULIB_STPNCPY@/0/g -e s/@GNULIB_STRCHRNUL@/0/g -e s/@GNULIB_STRDUP@/1/g -e s/@GNULIB_STRNCAT@/0/g -e s/@GNULIB_STRNDUP@/0/g -e s/@GNULIB_STRNLEN@/1/g -e s/@GNULIB_STRPBRK@/0/g -e s/@GNULIB_STRSEP@/0/g -e s/@GNULIB_STRSTR@/1/g -e s/@GNULIB_STRCASESTR@/0/g -e s/@GNULIB_STRTOK_R@/0/g -e s/@GNULIB_STRERROR@/1/g -e s/@GNULIB_STRERROR_R@/0/g -e s/@GNULIB_STRSIGNAL@/0/g -e s/@GNULIB_STRVERSCMP@/0/g
++ sed -e s|@HAVE_FFSL@|1|g -e s|@HAVE_FFSLL@|1|g -e s|@HAVE_MBSLEN@|0|g -e s|@HAVE_MEMCHR@|1|g -e s|@HAVE_DECL_MEMMEM@|1|g -e s|@HAVE_MEMPCPY@|1|g -e s|@HAVE_DECL_MEMRCHR@|1|g -e s|@HAVE_RAWMEMCHR@|1|g -e s|@HAVE_STPCPY@|1|g -e s|@HAVE_STPNCPY@|1|g -e s|@HAVE_STRCHRNUL@|1|g -e s|@HAVE_DECL_STRDUP@|1|g -e s|@HAVE_DECL_STRNDUP@|1|g -e s|@HAVE_DECL_STRNLEN@|1|g -e s|@HAVE_STRPBRK@|1|g -e s|@HAVE_STRSEP@|1|g -e s|@HAVE_STRCASESTR@|1|g -e s|@HAVE_DECL_STRTOK_R@|1|g -e s|@HAVE_DECL_STRERROR_R@|1|g -e s|@HAVE_DECL_STRSIGNAL@|1|g -e s|@HAVE_STRVERSCMP@|1|g -e s|@REPLACE_STPNCPY@|0|g -e s|@REPLACE_MEMCHR@|0|g -e s|@REPLACE_MEMMEM@|0|g -e s|@REPLACE_STRCASESTR@|0|g -e s|@REPLACE_STRCHRNUL@|0|g -e s|@REPLACE_STRDUP@|0|g -e s|@REPLACE_STRSTR@|0|g -e s|@REPLACE_STRERROR@|0|g -e s|@REPLACE_STRERROR_R@|0|g -e s|@REPLACE_STRNCAT@|0|g -e s|@REPLACE_STRNDUP@|0|g -e s|@REPLACE_STRNLEN@|0|g -e s|@REPLACE_STRSIGNAL@|0|g -e s|@REPLACE_STRTOK_R@|0|g -e s|@UNDEFINE_STRTOK_R@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ 
++ mv string.h-t string.h
++ /bin/mkdir -p sys
++ echo   GEN      sys/stat.h
+  GEN      sys/stat.h
++ rm -f sys/stat.h-t sys/stat.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_SYS_STAT_H@|<sys/stat.h>|g -e s|@WINDOWS_64_BIT_ST_SIZE@|0|g -e s/@GNULIB_FCHMODAT@/0/g -e s/@GNULIB_FSTAT@/1/g -e s/@GNULIB_FSTATAT@/1/g -e s/@GNULIB_FUTIMENS@/0/g -e s/@GNULIB_LCHMOD@/0/g -e s/@GNULIB_LSTAT@/1/g -e s/@GNULIB_MKDIRAT@/0/g -e s/@GNULIB_MKFIFO@/0/g -e s/@GNULIB_MKFIFOAT@/0/g -e s/@GNULIB_MKNOD@/0/g -e s/@GNULIB_MKNODAT@/0/g -e s/@GNULIB_STAT@/1/g -e s/@GNULIB_UTIMENSAT@/0/g -e s|@HAVE_FCHMODAT@|1|g -e s|@HAVE_FSTATAT@|1|g -e s|@HAVE_FUTIMENS@|1|g -e s|@HAVE_LCHMOD@|1|g -e s|@HAVE_LSTAT@|1|g -e s|@HAVE_MKDIRAT@|1|g -e s|@HAVE_MKFIFO@|1|g -e s|@HAVE_MKFIFOAT@|1|g -e s|@HAVE_MKNOD@|1|g -e s|@HAVE_MKNODAT@|1|g -e s|@HAVE_UTIMENSAT@|1|g -e s|@REPLACE_FSTAT@|0|g -e s|@REPLACE_FSTATAT@|0|g -e s|@REPLACE_FUTIMENS@|0|g -e s|@REPLACE_LSTAT@|0|g -e s|@REPLACE_MKDIR@|0|g -e s|@REPLACE_MKFIFO@|0|g -e s|@REPLACE_MKNOD@|0|g -e s|@REPLACE_STAT@|0|g -e s|@REPLACE_UTIMENSAT@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv sys/stat.h-t sys/stat.h
++ /bin/mkdir -p sys
++ echo   GEN      sys/time.h
+  GEN      sys/time.h
++ rm -f sys/time.h-t sys/time.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s/@HAVE_SYS_TIME_H@/1/g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_SYS_TIME_H@|<sys/time.h>|g -e s/@GNULIB_GETTIMEOFDAY@/1/g -e s|@HAVE_WINSOCK2_H@|0|g -e s/@HAVE_GETTIMEOFDAY@/1/g -e s/@HAVE_STRUCT_TIMEVAL@/1/g -e s/@REPLACE_GETTIMEOFDAY@/0/g -e s/@REPLACE_STRUCT_TIMEVAL@/0/g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv sys/time.h-t sys/time.h
++ /bin/mkdir -p sys
++ echo   GEN      sys/types.h
+  GEN      sys/types.h
++ rm -f sys/types.h-t sys/types.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_SYS_TYPES_H@|<sys/types.h>|g -e s|@WINDOWS_64_BIT_OFF_T@|0|g
++ mv sys/types.h-t sys/types.h
++ echo   GEN      time.h
+  GEN      time.h
++ rm -f time.h-t time.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_TIME_H@|<time.h>|g -e s/@GNULIB_GETTIMEOFDAY@/1/g -e s/@GNULIB_MKTIME@/0/g -e s/@GNULIB_NANOSLEEP@/0/g -e s/@GNULIB_STRPTIME@/0/g -e s/@GNULIB_TIMEGM@/0/g -e s/@GNULIB_TIME_R@/0/g -e s/@GNULIB_TIME_RZ@/0/g -e s|@HAVE_DECL_LOCALTIME_R@|1|g -e s|@HAVE_NANOSLEEP@|1|g -e s|@HAVE_STRPTIME@|1|g -e s|@HAVE_TIMEGM@|1|g -e s|@HAVE_TIMEZONE_T@|0|g -e s|@REPLACE_GMTIME@|0|g -e s|@REPLACE_LOCALTIME@|0|g -e s|@REPLACE_LOCALTIME_R@|GNULIB_PORTCHECK|g -e s|@REPLACE_MKTIME@|GNULIB_PORTCHECK|g -e s|@REPLACE_NANOSLEEP@|GNULIB_PORTCHECK|g -e s|@REPLACE_TIMEGM@|GNULIB_PORTCHECK|g -e s|@PTHREAD_H_DEFINES_STRUCT_TIMESPEC@|0|g -e s|@SYS_TIME_H_DEFINES_STRUCT_TIMESPEC@|0|g -e s|@TIME_H_DEFINES_STRUCT_TIMESPEC@|1|g -e s|@UNISTD_H_DEFINES_STRUCT_TIMESPEC@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv time.h-t time.h
++ echo   GEN      unistd.h
+  GEN      unistd.h
++ rm -f unistd.h-t unistd.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@REPLACE_CHOWN@|0|g -e s|@REPLACE_CLOSE@|0|g -e s|@REPLACE_DUP@|0|g -e s|@REPLACE_DUP2@|0|g -e s|@REPLACE_FCHOWNAT@|0|g -e s|@REPLACE_FTRUNCATE@|0|g -e s|@REPLACE_GETCWD@|0|g -e s|@REPLACE_GETDOMAINNAME@|0|g -e s|@REPLACE_GETDTABLESIZE@|0|g -e s|@REPLACE_GETLOGIN_R@|0|g -e s|@REPLACE_GETGROUPS@|0|g -e s|@REPLACE_GETPAGESIZE@|0|g -e s|@REPLACE_ISATTY@|0|g -e s|@REPLACE_LCHOWN@|0|g -e s|@REPLACE_LINK@|0|g -e s|@REPLACE_LINKAT@|0|g -e s|@REPLACE_LSEEK@|0|g -e s|@REPLACE_PREAD@|0|g -e s|@REPLACE_PWRITE@|0|g -e s|@REPLACE_READ@|0|g -e s|@REPLACE_READLINK@|0|g -e s|@REPLACE_READLINKAT@|0|g -e s|@REPLACE_RMDIR@|0|g -e s|@REPLACE_SLEEP@|0|g -e s|@REPLACE_SYMLINK@|0|g -e s|@REPLACE_SYMLINKAT@|0|g -e s|@REPLACE_TTYNAME_R@|0|g -e s|@REPLACE_UNLINK@|0|g -e s|@REPLACE_UNLINKAT@|0|g -e s|@REPLACE_USLEEP@|0|g -e s|@REPLACE_WRITE@|0|g -e s|@UNISTD_H_HAVE_WINSOCK2_H@|0|g -e s|@UNISTD_H_HAVE_WINSOCK2_H_AND_USE_SOCKETS@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ sed -e s|@HAVE_CHOWN@|1|g -e s|@HAVE_DUP2@|1|g -e s|@HAVE_DUP3@|1|g -e s|@HAVE_EUIDACCESS@|1|g -e s|@HAVE_FACCESSAT@|1|g -e s|@HAVE_FCHDIR@|1|g -e s|@HAVE_FCHOWNAT@|1|g -e s|@HAVE_FDATASYNC@|1|g -e s|@HAVE_FSYNC@|1|g -e s|@HAVE_FTRUNCATE@|1|g -e s|@HAVE_GETDTABLESIZE@|1|g -e s|@HAVE_GETGROUPS@|1|g -e s|@HAVE_GETHOSTNAME@|1|g -e s|@HAVE_GETLOGIN@|1|g -e s|@HAVE_GETPAGESIZE@|1|g -e s|@HAVE_GROUP_MEMBER@|1|g -e s|@HAVE_LCHOWN@|1|g -e s|@HAVE_LINK@|1|g -e s|@HAVE_LINKAT@|1|g -e s|@HAVE_PIPE@|1|g -e s|@HAVE_PIPE2@|1|g -e s|@HAVE_PREAD@|1|g -e s|@HAVE_PWRITE@|1|g -e s|@HAVE_READLINK@|1|g -e s|@HAVE_READLINKAT@|1|g -e s|@HAVE_SETHOSTNAME@|1|g -e s|@HAVE_SLEEP@|1|g -e s|@HAVE_SYMLINK@|1|g -e s|@HAVE_SYMLINKAT@|1|g -e s|@HAVE_UNLINKAT@|1|g -e s|@HAVE_USLEEP@|1|g -e s|@HAVE_DECL_ENVIRON@|1|g -e s|@HAVE_DECL_FCHDIR@|1|g -e s|@HAVE_DECL_FDATASYNC@|1|g -e s|@HAVE_DECL_GETDOMAINNAME@|1|g -e s|@HAVE_DECL_GETLOGIN_R@|1|g -e s|@HAVE_DECL_GETPAGESIZE@|1|g -e s|@HAVE_DECL_GETUSERSHELL@|1|g -e s|@HAVE_DECL_SETHOSTNAME@|1|g -e s|@HAVE_DECL_TTYNAME_R@|1|g -e s|@HAVE_OS_H@|0|g -e s|@HAVE_SYS_PARAM_H@|0|g
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@HAVE_UNISTD_H@|1|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_UNISTD_H@|<unistd.h>|g -e s|@WINDOWS_64_BIT_OFF_T@|0|g -e s/@GNULIB_CHDIR@/1/g -e s/@GNULIB_CHOWN@/0/g -e s/@GNULIB_CLOSE@/1/g -e s/@GNULIB_DUP@/1/g -e s/@GNULIB_DUP2@/1/g -e s/@GNULIB_DUP3@/0/g -e s/@GNULIB_ENVIRON@/IN_GREP_GNULIB_TESTS/g -e s/@GNULIB_EUIDACCESS@/0/g -e s/@GNULIB_FACCESSAT@/0/g -e s/@GNULIB_FCHDIR@/1/g -e s/@GNULIB_FCHOWNAT@/0/g -e s/@GNULIB_FDATASYNC@/0/g -e s/@GNULIB_FSYNC@/0/g -e s/@GNULIB_FTRUNCATE@/0/g -e s/@GNULIB_GETCWD@/1/g -e s/@GNULIB_GETDOMAINNAME@/0/g -e s/@GNULIB_GETDTABLESIZE@/1/g -e s/@GNULIB_GETGROUPS@/0/g -e s/@GNULIB_GETHOSTNAME@/0/g -e s/@GNULIB_GETLOGIN@/0/g -e s/@GNULIB_GETLOGIN_R@/0/g -e s/@GNULIB_GETPAGESIZE@/1/g -e s/@GNULIB_GETUSERSHELL@/0/g -e s/@GNULIB_GROUP_MEMBER@/0/g -e s/@GNULIB_ISATTY@/1/g -e s/@GNULIB_LCHOWN@/0/g -e s/@GNULIB_LINK@/0/g -e s/@GNULIB_LINKAT@/0/g -e s/@GNULIB_LSEEK@/1/g -e s/@GNULIB_PIPE@/IN_GREP_GNULIB_TESTS/g -e s/@GNULIB_PIPE2@/0/g -e s/@GNULIB_PREAD@/0/g -e s/@GNULIB_PWRITE@/0/g -e s/@GNULIB_READ@/1/g -e s/@GNULIB_READLINK@/0/g -e s/@GNULIB_READLINKAT@/0/g -e s/@GNULIB_RMDIR@/0/g -e s/@GNULIB_SETHOSTNAME@/0/g -e s/@GNULIB_SLEEP@/0/g -e s/@GNULIB_SYMLINK@/IN_GREP_GNULIB_TESTS/g -e s/@GNULIB_SYMLINKAT@/0/g -e s/@GNULIB_TTYNAME_R@/0/g -e s/@GNULIB_UNISTD_H_GETOPT@/0/g -e s/@GNULIB_UNISTD_H_NONBLOCKING@/0/g -e s/@GNULIB_UNISTD_H_SIGPIPE@/0/g -e s/@GNULIB_UNLINK@/0/g -e s/@GNULIB_UNLINKAT@/0/g -e s/@GNULIB_USLEEP@/0/g -e s/@GNULIB_WRITE@/0/g
++ mv unistd.h-t unistd.h
++ echo   GEN      unistr.h
+  GEN      unistr.h
++ rm -f unistr.h-t unistr.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ cat ./unistr.in.h
++ mv -f unistr.h-t unistr.h
++ echo   GEN      unitypes.h
+  GEN      unitypes.h
++ rm -f unitypes.h-t unitypes.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ cat ./unitypes.in.h
++ mv -f unitypes.h-t unitypes.h
++ echo   GEN      uniwidth.h
+  GEN      uniwidth.h
++ rm -f uniwidth.h-t uniwidth.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ cat ./uniwidth.in.h
++ mv -f uniwidth.h-t uniwidth.h
++ echo   GEN      wchar.h
+  GEN      wchar.h
++ rm -f wchar.h-t wchar.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@REPLACE_MBSTATE_T@|0|g -e s|@REPLACE_BTOWC@|0|g -e s|@REPLACE_WCTOB@|0|g -e s|@REPLACE_MBSINIT@|0|g -e s|@REPLACE_MBRTOWC@|1|g -e s|@REPLACE_MBRLEN@|1|g -e s|@REPLACE_MBSRTOWCS@|0|g -e s|@REPLACE_MBSNRTOWCS@|0|g -e s|@REPLACE_WCRTOMB@|0|g -e s|@REPLACE_WCSRTOMBS@|0|g -e s|@REPLACE_WCSNRTOMBS@|0|g -e s|@REPLACE_WCWIDTH@|0|g -e s|@REPLACE_WCSWIDTH@|0|g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_ARG_NONNULL/r arg-nonnull.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ sed -e s|@HAVE_WINT_T@|1|g -e s|@HAVE_BTOWC@|1|g -e s|@HAVE_MBSINIT@|1|g -e s|@HAVE_MBRTOWC@|1|g -e s|@HAVE_MBRLEN@|1|g -e s|@HAVE_MBSRTOWCS@|1|g -e s|@HAVE_MBSNRTOWCS@|1|g -e s|@HAVE_WCRTOMB@|1|g -e s|@HAVE_WCSRTOMBS@|1|g -e s|@HAVE_WCSNRTOMBS@|1|g -e s|@HAVE_WMEMCHR@|1|g -e s|@HAVE_WMEMCMP@|1|g -e s|@HAVE_WMEMCPY@|1|g -e s|@HAVE_WMEMMOVE@|1|g -e s|@HAVE_WMEMSET@|1|g -e s|@HAVE_WCSLEN@|1|g -e s|@HAVE_WCSNLEN@|1|g -e s|@HAVE_WCSCPY@|1|g -e s|@HAVE_WCPCPY@|1|g -e s|@HAVE_WCSNCPY@|1|g -e s|@HAVE_WCPNCPY@|1|g -e s|@HAVE_WCSCAT@|1|g -e s|@HAVE_WCSNCAT@|1|g -e s|@HAVE_WCSCMP@|1|g -e s|@HAVE_WCSNCMP@|1|g -e s|@HAVE_WCSCASECMP@|1|g -e s|@HAVE_WCSNCASECMP@|1|g -e s|@HAVE_WCSCOLL@|1|g -e s|@HAVE_WCSXFRM@|1|g -e s|@HAVE_WCSDUP@|1|g -e s|@HAVE_WCSCHR@|1|g -e s|@HAVE_WCSRCHR@|1|g -e s|@HAVE_WCSCSPN@|1|g -e s|@HAVE_WCSSPN@|1|g -e s|@HAVE_WCSPBRK@|1|g -e s|@HAVE_WCSSTR@|1|g -e s|@HAVE_WCSTOK@|1|g -e s|@HAVE_WCSWIDTH@|1|g -e s|@HAVE_DECL_WCTOB@|1|g -e s|@HAVE_DECL_WCWIDTH@|1|g
++ sed -e s|@GUARD_PREFIX@|GL|g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@HAVE_FEATURES_H@|1|g -e s|@NEXT_WCHAR_H@|<wchar.h>|g -e s|@HAVE_WCHAR_H@|1|g -e s/@GNULIB_BTOWC@/1/g -e s/@GNULIB_WCTOB@/1/g -e s/@GNULIB_MBSINIT@/1/g -e s/@GNULIB_MBRTOWC@/1/g -e s/@GNULIB_MBRLEN@/1/g -e s/@GNULIB_MBSRTOWCS@/1/g -e s/@GNULIB_MBSNRTOWCS@/0/g -e s/@GNULIB_WCRTOMB@/1/g -e s/@GNULIB_WCSRTOMBS@/0/g -e s/@GNULIB_WCSNRTOMBS@/0/g -e s/@GNULIB_WCWIDTH@/1/g -e s/@GNULIB_WMEMCHR@/0/g -e s/@GNULIB_WMEMCMP@/0/g -e s/@GNULIB_WMEMCPY@/0/g -e s/@GNULIB_WMEMMOVE@/0/g -e s/@GNULIB_WMEMSET@/0/g -e s/@GNULIB_WCSLEN@/0/g -e s/@GNULIB_WCSNLEN@/0/g -e s/@GNULIB_WCSCPY@/0/g -e s/@GNULIB_WCPCPY@/0/g -e s/@GNULIB_WCSNCPY@/0/g -e s/@GNULIB_WCPNCPY@/0/g -e s/@GNULIB_WCSCAT@/0/g -e s/@GNULIB_WCSNCAT@/0/g -e s/@GNULIB_WCSCMP@/0/g -e s/@GNULIB_WCSNCMP@/0/g -e s/@GNULIB_WCSCASECMP@/0/g -e s/@GNULIB_WCSNCASECMP@/0/g -e s/@GNULIB_WCSCOLL@/0/g -e s/@GNULIB_WCSXFRM@/0/g -e s/@GNULIB_WCSDUP@/0/g -e s/@GNULIB_WCSCHR@/0/g -e s/@GNULIB_WCSRCHR@/0/g -e s/@GNULIB_WCSCSPN@/0/g -e s/@GNULIB_WCSSPN@/0/g -e s/@GNULIB_WCSPBRK@/0/g -e s/@GNULIB_WCSSTR@/0/g -e s/@GNULIB_WCSTOK@/0/g -e s/@GNULIB_WCSWIDTH@/0/g
++ mv wchar.h-t wchar.h
++ echo   GEN      wctype.h
+  GEN      wctype.h
++ rm -f wctype.h-t wctype.h
++ echo /* DO NOT EDIT! GENERATED AUTOMATICALLY! */
++ sed -e s|@GUARD_PREFIX@|GL|g -e s/@HAVE_WCTYPE_H@/1/g -e s|@INCLUDE_NEXT@|include_next|g -e s|@PRAGMA_SYSTEM_HEADER@|#pragma GCC system_header|g -e s|@PRAGMA_COLUMNS@||g -e s|@NEXT_WCTYPE_H@|<wctype.h>|g -e s/@GNULIB_ISWBLANK@/1/g -e s/@GNULIB_WCTYPE@/0/g -e s/@GNULIB_ISWCTYPE@/1/g -e s/@GNULIB_WCTRANS@/0/g -e s/@GNULIB_TOWCTRANS@/0/g -e s/@HAVE_ISWBLANK@/1/g -e s/@HAVE_ISWCNTRL@/1/g -e s/@HAVE_WCTYPE_T@/1/g -e s/@HAVE_WCTRANS_T@/1/g -e s/@HAVE_WINT_T@/1/g -e s/@REPLACE_ISWBLANK@/0/g -e s/@REPLACE_ISWCNTRL@/0/g -e s/@REPLACE_TOWLOWER@/0/g -e /definitions of _GL_FUNCDECL_RPL/r c++defs.h -e /definition of _GL_WARN_ON_USE/r warn-on-use.h
++ mv wctype.h-t wctype.h
+make  all-am
++ make all-am
+make[3]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/lib'
+Makefile:1687: target '.deps/alloca.Po' given more than once in the same rule
++ echo   CC       argmatch.o
+  CC       argmatch.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo argmatch.o
++ depbase=.deps/argmatch
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT argmatch.o -MD -MP -MF .deps/argmatch.Tpo -c -o argmatch.o argmatch.c
++ mv -f .deps/argmatch.Tpo .deps/argmatch.Po
++ echo   CC       binary-io.o
+  CC       binary-io.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo binary-io.o
++ depbase=.deps/binary-io
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT binary-io.o -MD -MP -MF .deps/binary-io.Tpo -c -o binary-io.o binary-io.c
++ mv -f .deps/binary-io.Tpo .deps/binary-io.Po
++ echo   CC       bitrotate.o
+  CC       bitrotate.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo bitrotate.o
++ depbase=.deps/bitrotate
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT bitrotate.o -MD -MP -MF .deps/bitrotate.Tpo -c -o bitrotate.o bitrotate.c
++ mv -f .deps/bitrotate.Tpo .deps/bitrotate.Po
++ echo   CC       c-ctype.o
+  CC       c-ctype.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo c-ctype.o
++ depbase=.deps/c-ctype
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT c-ctype.o -MD -MP -MF .deps/c-ctype.Tpo -c -o c-ctype.o c-ctype.c
++ mv -f .deps/c-ctype.Tpo .deps/c-ctype.Po
++ echo   CC       c-strcasecmp.o
+  CC       c-strcasecmp.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo c-strcasecmp.o
++ depbase=.deps/c-strcasecmp
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT c-strcasecmp.o -MD -MP -MF .deps/c-strcasecmp.Tpo -c -o c-strcasecmp.o c-strcasecmp.c
++ mv -f .deps/c-strcasecmp.Tpo .deps/c-strcasecmp.Po
++ echo   CC       c-strncasecmp.o
+  CC       c-strncasecmp.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo c-strncasecmp.o
++ depbase=.deps/c-strncasecmp
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT c-strncasecmp.o -MD -MP -MF .deps/c-strncasecmp.Tpo -c -o c-strncasecmp.o c-strncasecmp.c
++ mv -f .deps/c-strncasecmp.Tpo .deps/c-strncasecmp.Po
++ echo   CC       cloexec.o
+  CC       cloexec.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo cloexec.o
++ depbase=.deps/cloexec
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cloexec.o -MD -MP -MF .deps/cloexec.Tpo -c -o cloexec.o cloexec.c
++ mv -f .deps/cloexec.Tpo .deps/cloexec.Po
++ echo   CC       close-stream.o
+  CC       close-stream.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo close-stream.o
++ depbase=.deps/close-stream
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT close-stream.o -MD -MP -MF .deps/close-stream.Tpo -c -o close-stream.o close-stream.c
++ mv -f .deps/close-stream.Tpo .deps/close-stream.Po
++ echo   CC       closeout.o
+  CC       closeout.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo closeout.o
++ depbase=.deps/closeout
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT closeout.o -MD -MP -MF .deps/closeout.Tpo -c -o closeout.o closeout.c
++ mv -f .deps/closeout.Tpo .deps/closeout.Po
++ echo   CC       cycle-check.o
+  CC       cycle-check.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo cycle-check.o
++ depbase=.deps/cycle-check
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cycle-check.o -MD -MP -MF .deps/cycle-check.Tpo -c -o cycle-check.o cycle-check.c
++ mv -f .deps/cycle-check.Tpo .deps/cycle-check.Po
++ echo   CC       opendir-safer.o
+  CC       opendir-safer.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo opendir-safer.o
++ depbase=.deps/opendir-safer
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT opendir-safer.o -MD -MP -MF .deps/opendir-safer.Tpo -c -o opendir-safer.o opendir-safer.c
++ mv -f .deps/opendir-safer.Tpo .deps/opendir-safer.Po
++ echo   CC       dirname-lgpl.o
+  CC       dirname-lgpl.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo dirname-lgpl.o
++ depbase=.deps/dirname-lgpl
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT dirname-lgpl.o -MD -MP -MF .deps/dirname-lgpl.Tpo -c -o dirname-lgpl.o dirname-lgpl.c
++ mv -f .deps/dirname-lgpl.Tpo .deps/dirname-lgpl.Po
++ echo   CC       basename-lgpl.o
+  CC       basename-lgpl.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo basename-lgpl.o
++ depbase=.deps/basename-lgpl
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT basename-lgpl.o -MD -MP -MF .deps/basename-lgpl.Tpo -c -o basename-lgpl.o basename-lgpl.c
++ mv -f .deps/basename-lgpl.Tpo .deps/basename-lgpl.Po
++ echo   CC       stripslash.o
+  CC       stripslash.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo stripslash.o
++ depbase=.deps/stripslash
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT stripslash.o -MD -MP -MF .deps/stripslash.Tpo -c -o stripslash.o stripslash.c
++ mv -f .deps/stripslash.Tpo .deps/stripslash.Po
++ echo   CC       exclude.o
+  CC       exclude.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo exclude.o
++ depbase=.deps/exclude
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT exclude.o -MD -MP -MF .deps/exclude.Tpo -c -o exclude.o exclude.c
++ mv -f .deps/exclude.Tpo .deps/exclude.Po
++ echo   CC       exitfail.o
+  CC       exitfail.o
++ echo exitfail.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/exitfail
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT exitfail.o -MD -MP -MF .deps/exitfail.Tpo -c -o exitfail.o exitfail.c
++ mv -f .deps/exitfail.Tpo .deps/exitfail.Po
++ echo   CC       creat-safer.o
+  CC       creat-safer.o
++ echo creat-safer.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/creat-safer
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT creat-safer.o -MD -MP -MF .deps/creat-safer.Tpo -c -o creat-safer.o creat-safer.c
++ mv -f .deps/creat-safer.Tpo .deps/creat-safer.Po
++ echo   CC       open-safer.o
+  CC       open-safer.o
++ echo open-safer.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/open-safer
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT open-safer.o -MD -MP -MF .deps/open-safer.Tpo -c -o open-safer.o open-safer.c
++ mv -f .deps/open-safer.Tpo .deps/open-safer.Po
++ echo   CC       fd-hook.o
+  CC       fd-hook.o
++ echo fd-hook.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/fd-hook
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fd-hook.o -MD -MP -MF .deps/fd-hook.Tpo -c -o fd-hook.o fd-hook.c
++ mv -f .deps/fd-hook.Tpo .deps/fd-hook.Po
++ echo   CC       filenamecat-lgpl.o
+  CC       filenamecat-lgpl.o
++ echo filenamecat-lgpl.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/filenamecat-lgpl
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT filenamecat-lgpl.o -MD -MP -MF .deps/filenamecat-lgpl.Tpo -c -o filenamecat-lgpl.o filenamecat-lgpl.c
++ mv -f .deps/filenamecat-lgpl.Tpo .deps/filenamecat-lgpl.Po
++ echo   CC       hard-locale.o
+  CC       hard-locale.o
++ echo hard-locale.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/hard-locale
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT hard-locale.o -MD -MP -MF .deps/hard-locale.Tpo -c -o hard-locale.o hard-locale.c
++ mv -f .deps/hard-locale.Tpo .deps/hard-locale.Po
++ echo   CC       hash.o
+  CC       hash.o
++ + echo hash.o
+sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/hash
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT hash.o -MD -MP -MF .deps/hash.Tpo -c -o hash.o hash.c
++ mv -f .deps/hash.Tpo .deps/hash.Po
++ echo   CC       i-ring.o
+  CC       i-ring.o
++ echo i-ring.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/i-ring
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT i-ring.o -MD -MP -MF .deps/i-ring.Tpo -c -o i-ring.o i-ring.c
++ mv -f .deps/i-ring.Tpo .deps/i-ring.Po
++ echo   CC       localcharset.o
+  CC       localcharset.o
++ echo localcharset.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/localcharset
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT localcharset.o -MD -MP -MF .deps/localcharset.Tpo -c -o localcharset.o localcharset.c
++ mv -f .deps/localcharset.Tpo .deps/localcharset.Po
++ echo   CC       glthread/lock.o
+  CC       glthread/lock.o
++ echo glthread/lock.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=glthread/.deps/lock
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT glthread/lock.o -MD -MP -MF glthread/.deps/lock.Tpo -c -o glthread/lock.o glthread/lock.c
++ mv -f glthread/.deps/lock.Tpo glthread/.deps/lock.Po
++ echo   CC       malloca.o
+  CC       malloca.o
++ echo malloca.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/malloca
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT malloca.o -MD -MP -MF .deps/malloca.Tpo -c -o malloca.o malloca.c
++ mv -f .deps/malloca.Tpo .deps/malloca.Po
++ echo   CC       mbchar.o
+  CC       mbchar.o
++ echo mbchar.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/mbchar
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbchar.o -MD -MP -MF .deps/mbchar.Tpo -c -o mbchar.o mbchar.c
++ mv -f .deps/mbchar.Tpo .deps/mbchar.Po
++ echo   CC       mbiter.o
+  CC       mbiter.o
++ echo mbiter.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/mbiter
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbiter.o -MD -MP -MF .deps/mbiter.Tpo -c -o mbiter.o mbiter.c
++ mv -f .deps/mbiter.Tpo .deps/mbiter.Po
++ echo   CC       mbscasecmp.o
+  CC       mbscasecmp.o
++ echo mbscasecmp.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/mbscasecmp
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbscasecmp.o -MD -MP -MF .deps/mbscasecmp.Tpo -c -o mbscasecmp.o mbscasecmp.c
++ mv -f .deps/mbscasecmp.Tpo .deps/mbscasecmp.Po
++ echo   CC       mbslen.o
+  CC       mbslen.o
++ echo mbslen.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/mbslen
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbslen.o -MD -MP -MF .deps/mbslen.Tpo -c -o mbslen.o mbslen.c
++ mv -f .deps/mbslen.Tpo .deps/mbslen.Po
++ echo   CC       mbsstr.o
+  CC       mbsstr.o
++ echo mbsstr.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/mbsstr
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbsstr.o -MD -MP -MF .deps/mbsstr.Tpo -c -o mbsstr.o mbsstr.c
++ mv -f .deps/mbsstr.Tpo .deps/mbsstr.Po
++ echo   CC       mbuiter.o
+  CC       mbuiter.o
++ echo mbuiter.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/mbuiter
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbuiter.o -MD -MP -MF .deps/mbuiter.Tpo -c -o mbuiter.o mbuiter.c
++ mv -f .deps/mbuiter.Tpo .deps/mbuiter.Po
++ echo   CC       memchr2.o
+  CC       memchr2.o
++ echo memchr2.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/memchr2
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT memchr2.o -MD -MP -MF .deps/memchr2.Tpo -c -o memchr2.o memchr2.c
++ mv -f .deps/memchr2.Tpo .deps/memchr2.Po
++ echo   CC       openat-die.o
+  CC       openat-die.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo openat-die.o
++ depbase=.deps/openat-die
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT openat-die.o -MD -MP -MF .deps/openat-die.Tpo -c -o openat-die.o openat-die.c
++ mv -f .deps/openat-die.Tpo .deps/openat-die.Po
++ echo   CC       openat-safer.o
+  CC       openat-safer.o
++ echo openat-safer.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/openat-safer
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT openat-safer.o -MD -MP -MF .deps/openat-safer.Tpo -c -o openat-safer.o openat-safer.c
++ mv -f .deps/openat-safer.Tpo .deps/openat-safer.Po
++ echo   CC       progname.o
+  CC       progname.o
++ echo progname.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/progname
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT progname.o -MD -MP -MF .deps/progname.Tpo -c -o progname.o progname.c
++ mv -f .deps/progname.Tpo .deps/progname.Po
++ echo   CC       propername.o
+  CC       propername.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo propername.o
++ depbase=.deps/propername
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT propername.o -MD -MP -MF .deps/propername.Tpo -c -o propername.o propername.c
++ mv -f .deps/propername.Tpo .deps/propername.Po
++ echo   CC       quotearg.o
+  CC       quotearg.o
++ echo quotearg.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/quotearg
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT quotearg.o -MD -MP -MF .deps/quotearg.Tpo -c -o quotearg.o quotearg.c
++ mv -f .deps/quotearg.Tpo .deps/quotearg.Po
++ echo   CC       safe-read.o
+  CC       safe-read.o
++ echo safe-read.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/safe-read
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT safe-read.o -MD -MP -MF .deps/safe-read.Tpo -c -o safe-read.o safe-read.c
++ mv -f .deps/safe-read.Tpo .deps/safe-read.Po
++ echo   CC       save-cwd.o
+  CC       save-cwd.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo save-cwd.o
++ depbase=.deps/save-cwd
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT save-cwd.o -MD -MP -MF .deps/save-cwd.Tpo -c -o save-cwd.o save-cwd.c
++ mv -f .deps/save-cwd.Tpo .deps/save-cwd.Po
++ echo   CC       striconv.o
+  CC       striconv.o
++ echo striconv.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/striconv
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT striconv.o -MD -MP -MF .deps/striconv.Tpo -c -o striconv.o striconv.c
++ mv -f .deps/striconv.Tpo .deps/striconv.Po
++ echo   CC       strnlen1.o
+  CC       strnlen1.o
++ echo strnlen1.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/strnlen1
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT strnlen1.o -MD -MP -MF .deps/strnlen1.Tpo -c -o strnlen1.o strnlen1.c
++ mv -f .deps/strnlen1.Tpo .deps/strnlen1.Po
++ echo   CC       glthread/threadlib.o
+  CC       glthread/threadlib.o
++ echo glthread/threadlib.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=glthread/.deps/threadlib
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT glthread/threadlib.o -MD -MP -MF glthread/.deps/threadlib.Tpo -c -o glthread/threadlib.o glthread/threadlib.c
++ mv -f glthread/.deps/threadlib.Tpo glthread/.deps/threadlib.Po
++ echo   CC       trim.o
+  CC       trim.o
++ echo trim.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/trim
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT trim.o -MD -MP -MF .deps/trim.Tpo -c -o trim.o trim.c
++ mv -f .deps/trim.Tpo .deps/trim.Po
++ echo   CC       unistd.o
+  CC       unistd.o
++ + echo unistd.o
+sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/unistd
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistd.o -MD -MP -MF .deps/unistd.Tpo -c -o unistd.o unistd.c
++ mv -f .deps/unistd.Tpo .deps/unistd.Po
++ echo   CC       dup-safer.o
+  CC       dup-safer.o
++ echo dup-safer.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/dup-safer
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT dup-safer.o -MD -MP -MF .deps/dup-safer.Tpo -c -o dup-safer.o dup-safer.c
++ mv -f .deps/dup-safer.Tpo .deps/dup-safer.Po
++ echo   CC       fd-safer.o
+  CC       fd-safer.o
++ echo fd-safer.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/fd-safer
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fd-safer.o -MD -MP -MF .deps/fd-safer.Tpo -c -o fd-safer.o fd-safer.c
++ mv -f .deps/fd-safer.Tpo .deps/fd-safer.Po
++ echo   CC       pipe-safer.o
+  CC       pipe-safer.o
++ echo pipe-safer.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/pipe-safer
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT pipe-safer.o -MD -MP -MF .deps/pipe-safer.Tpo -c -o pipe-safer.o pipe-safer.c
++ mv -f .deps/pipe-safer.Tpo .deps/pipe-safer.Po
++ echo   CC       unistr/u8-mbtoucr.o
+  CC       unistr/u8-mbtoucr.o
++ echo unistr/u8-mbtoucr.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=unistr/.deps/u8-mbtoucr
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistr/u8-mbtoucr.o -MD -MP -MF unistr/.deps/u8-mbtoucr.Tpo -c -o unistr/u8-mbtoucr.o unistr/u8-mbtoucr.c
++ mv -f unistr/.deps/u8-mbtoucr.Tpo unistr/.deps/u8-mbtoucr.Po
++ echo   CC       unistr/u8-uctomb.o
+  CC       unistr/u8-uctomb.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo unistr/u8-uctomb.o
++ depbase=unistr/.deps/u8-uctomb
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistr/u8-uctomb.o -MD -MP -MF unistr/.deps/u8-uctomb.Tpo -c -o unistr/u8-uctomb.o unistr/u8-uctomb.c
++ mv -f unistr/.deps/u8-uctomb.Tpo unistr/.deps/u8-uctomb.Po
++ echo   CC       unistr/u8-uctomb-aux.o
+  CC       unistr/u8-uctomb-aux.o
++ echo unistr/u8-uctomb-aux.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=unistr/.deps/u8-uctomb-aux
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistr/u8-uctomb-aux.o -MD -MP -MF unistr/.deps/u8-uctomb-aux.Tpo -c -o unistr/u8-uctomb-aux.o unistr/u8-uctomb-aux.c
++ mv -f unistr/.deps/u8-uctomb-aux.Tpo unistr/.deps/u8-uctomb-aux.Po
++ echo   CC       uniwidth/width.o
+  CC       uniwidth/width.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo uniwidth/width.o
++ depbase=uniwidth/.deps/width
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT uniwidth/width.o -MD -MP -MF uniwidth/.deps/width.Tpo -c -o uniwidth/width.o uniwidth/width.c
++ mv -f uniwidth/.deps/width.Tpo uniwidth/.deps/width.Po
++ echo   CC       version-etc.o
+  CC       version-etc.o
++ echo version-etc.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/version-etc
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT version-etc.o -MD -MP -MF .deps/version-etc.Tpo -c -o version-etc.o version-etc.c
++ mv -f .deps/version-etc.Tpo .deps/version-etc.Po
++ echo   CC       version-etc-fsf.o
+  CC       version-etc-fsf.o
++ echo version-etc-fsf.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/version-etc-fsf
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT version-etc-fsf.o -MD -MP -MF .deps/version-etc-fsf.Tpo -c -o version-etc-fsf.o version-etc-fsf.c
++ mv -f .deps/version-etc-fsf.Tpo .deps/version-etc-fsf.Po
++ echo   CC       wctype-h.o
+  CC       wctype-h.o
++ echo wctype-h.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/wctype-h
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT wctype-h.o -MD -MP -MF .deps/wctype-h.Tpo -c -o wctype-h.o wctype-h.c
++ mv -f .deps/wctype-h.Tpo .deps/wctype-h.Po
++ echo   CC       xmalloc.o
+  CC       xmalloc.o
++ echo xmalloc.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/xmalloc
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xmalloc.o -MD -MP -MF .deps/xmalloc.Tpo -c -o xmalloc.o xmalloc.c
++ mv -f .deps/xmalloc.Tpo .deps/xmalloc.Po
++ echo   CC       xalloc-die.o
+  CC       xalloc-die.o
++ echo xalloc-die.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/xalloc-die
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xalloc-die.o -MD -MP -MF .deps/xalloc-die.Tpo -c -o xalloc-die.o xalloc-die.c
++ mv -f .deps/xalloc-die.Tpo .deps/xalloc-die.Po
++ echo   CC       xstriconv.o
+  CC       xstriconv.o
++ echo xstriconv.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/xstriconv
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstriconv.o -MD -MP -MF .deps/xstriconv.Tpo -c -o xstriconv.o xstriconv.c
++ mv -f .deps/xstriconv.Tpo .deps/xstriconv.Po
++ echo   CC       xstrtoimax.o
+  CC       xstrtoimax.o
++ echo xstrtoimax.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/xstrtoimax
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtoimax.o -MD -MP -MF .deps/xstrtoimax.Tpo -c -o xstrtoimax.o xstrtoimax.c
++ mv -f .deps/xstrtoimax.Tpo .deps/xstrtoimax.Po
++ echo   CC       xstrtol.o
+  CC       xstrtol.o
++ echo xstrtol.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/xstrtol
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtol.o -MD -MP -MF .deps/xstrtol.Tpo -c -o xstrtol.o xstrtol.c
++ mv -f .deps/xstrtol.Tpo .deps/xstrtol.Po
++ echo   CC       xstrtoul.o
+  CC       xstrtoul.o
++ echo xstrtoul.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/xstrtoul
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtoul.o -MD -MP -MF .deps/xstrtoul.Tpo -c -o xstrtoul.o xstrtoul.c
++ mv -f .deps/xstrtoul.Tpo .deps/xstrtoul.Po
++ echo   CC       xstrtol-error.o
+  CC       xstrtol-error.o
++ echo xstrtol-error.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/xstrtol-error
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtol-error.o -MD -MP -MF .deps/xstrtol-error.Tpo -c -o xstrtol-error.o xstrtol-error.c
++ mv -f .deps/xstrtol-error.Tpo .deps/xstrtol-error.Po
++ echo #include <colorize-posix.c>
++ mv colorize.c-t colorize.c
++ echo   CC       colorize.o
+  CC       colorize.o
++ echo colorize.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/colorize
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT colorize.o -MD -MP -MF .deps/colorize.Tpo -c -o colorize.o colorize.c
++ mv -f .deps/colorize.Tpo .deps/colorize.Po
++ echo   CC       chdir-long.o
+  CC       chdir-long.o
++ echo chdir-long.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/chdir-long
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT chdir-long.o -MD -MP -MF .deps/chdir-long.Tpo -c -o chdir-long.o chdir-long.c
++ mv -f .deps/chdir-long.Tpo .deps/chdir-long.Po
++ echo   CC       fcntl.o
+  CC       fcntl.o
++ echo fcntl.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/fcntl
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fcntl.o -MD -MP -MF .deps/fcntl.Tpo -c -o fcntl.o fcntl.c
++ mv -f .deps/fcntl.Tpo .deps/fcntl.Po
++ echo   CC       fts.o
+  CC       fts.o
++ echo fts.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/fts
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fts.o -MD -MP -MF .deps/fts.Tpo -c -o fts.o fts.c
++ mv -f .deps/fts.Tpo .deps/fts.Po
++ echo   CC       mbrlen.o
+  CC       mbrlen.o
++ echo mbrlen.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/mbrlen
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbrlen.o -MD -MP -MF .deps/mbrlen.Tpo -c -o mbrlen.o mbrlen.c
++ mv -f .deps/mbrlen.Tpo .deps/mbrlen.Po
++ echo   CC       mbrtowc.o
+  CC       mbrtowc.o
++ echo mbrtowc.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/mbrtowc
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbrtowc.o -MD -MP -MF .deps/mbrtowc.Tpo -c -o mbrtowc.o mbrtowc.c
++ mv -f .deps/mbrtowc.Tpo .deps/mbrtowc.Po
++ echo   CC       obstack.o
+  CC       obstack.o
++ echo obstack.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/obstack
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT obstack.o -MD -MP -MF .deps/obstack.Tpo -c -o obstack.o obstack.c
++ mv -f .deps/obstack.Tpo .deps/obstack.Po
++ echo   CC       openat-proc.o
+  CC       openat-proc.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo openat-proc.o
++ depbase=.deps/openat-proc
++ gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT openat-proc.o -MD -MP -MF .deps/openat-proc.Tpo -c -o openat-proc.o openat-proc.c
++ mv -f .deps/openat-proc.Tpo .deps/openat-proc.Po
++ rm -f libgreputils.a
++ echo   AR       libgreputils.a
+  AR       libgreputils.a
++ ar cr libgreputils.a argmatch.o binary-io.o bitrotate.o c-ctype.o c-strcasecmp.o c-strncasecmp.o cloexec.o close-stream.o closeout.o cycle-check.o opendir-safer.o dirname-lgpl.o basename-lgpl.o stripslash.o exclude.o exitfail.o creat-safer.o open-safer.o fd-hook.o filenamecat-lgpl.o hard-locale.o hash.o i-ring.o localcharset.o glthread/lock.o malloca.o mbchar.o mbiter.o mbscasecmp.o mbslen.o mbsstr.o mbuiter.o memchr2.o openat-die.o openat-safer.o progname.o propername.o quotearg.o safe-read.o save-cwd.o striconv.o strnlen1.o glthread/threadlib.o trim.o unistd.o dup-safer.o fd-safer.o pipe-safer.o unistr/u8-mbtoucr.o unistr/u8-uctomb.o unistr/u8-uctomb-aux.o uniwidth/width.o version-etc.o version-etc-fsf.o wctype-h.o xmalloc.o xalloc-die.o xstriconv.o xstrtoimax.o xstrtol.o xstrtoul.o xstrtol-error.o colorize.o chdir-long.o fcntl.o fts.o mbrlen.o mbrtowc.o obstack.o openat-proc.o
++ ranlib libgreputils.a
++ echo   GEN      charset.alias
+  GEN      charset.alias
++ rm -f t-charset.alias charset.alias
++ sh -xv ./config.charset x86_64-pc-linux-gnu
+#! /bin/sh
+# Output a system dependent table of character encoding aliases.
+#
+#   Copyright (C) 2000-2004, 2006-2016 Free Software Foundation, Inc.
+#
+#   This program is free software; you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation; either version 3, or (at your option)
+#   any later version.
+#
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License along
+#   with this program; if not, see <http://www.gnu.org/licenses/>.
+#
+# The table consists of lines of the form
+#    ALIAS  CANONICAL
+#
+# ALIAS is the (system dependent) result of "nl_langinfo (CODESET)".
+# ALIAS is compared in a case sensitive way.
+#
+# CANONICAL is the GNU canonical name for this character encoding.
+# It must be an encoding supported by libiconv. Support by GNU libc is
+# also desirable. CANONICAL is case insensitive. Usually an upper case
+# MIME charset name is preferred.
+# The current list of GNU canonical charset names is as follows.
+#
+#       name              MIME?             used by which systems
+#                                    (darwin = Mac OS X, woe32 = native Windows)
+#
+#   ASCII, ANSI_X3.4-1968       glibc solaris freebsd netbsd darwin cygwin
+#   ISO-8859-1              Y   glibc aix hpux irix osf solaris freebsd netbsd openbsd darwin cygwin
+#   ISO-8859-2              Y   glibc aix hpux irix osf solaris freebsd netbsd openbsd darwin cygwin
+#   ISO-8859-3              Y   glibc solaris cygwin
+#   ISO-8859-4              Y   osf solaris freebsd netbsd openbsd darwin
+#   ISO-8859-5              Y   glibc aix hpux irix osf solaris freebsd netbsd openbsd darwin cygwin
+#   ISO-8859-6              Y   glibc aix hpux solaris cygwin
+#   ISO-8859-7              Y   glibc aix hpux irix osf solaris netbsd openbsd darwin cygwin
+#   ISO-8859-8              Y   glibc aix hpux osf solaris cygwin
+#   ISO-8859-9              Y   glibc aix hpux irix osf solaris darwin cygwin
+#   ISO-8859-13                 glibc netbsd openbsd darwin cygwin
+#   ISO-8859-14                 glibc cygwin
+#   ISO-8859-15                 glibc aix osf solaris freebsd netbsd openbsd darwin cygwin
+#   KOI8-R                  Y   glibc solaris freebsd netbsd openbsd darwin
+#   KOI8-U                  Y   glibc freebsd netbsd openbsd darwin cygwin
+#   KOI8-T                      glibc
+#   CP437                       dos
+#   CP775                       dos
+#   CP850                       aix osf dos
+#   CP852                       dos
+#   CP855                       dos
+#   CP856                       aix
+#   CP857                       dos
+#   CP861                       dos
+#   CP862                       dos
+#   CP864                       dos
+#   CP865                       dos
+#   CP866                       freebsd netbsd openbsd darwin dos
+#   CP869                       dos
+#   CP874                       woe32 dos
+#   CP922                       aix
+#   CP932                       aix cygwin woe32 dos
+#   CP943                       aix
+#   CP949                       osf darwin woe32 dos
+#   CP950                       woe32 dos
+#   CP1046                      aix
+#   CP1124                      aix
+#   CP1125                      dos
+#   CP1129                      aix
+#   CP1131                      darwin
+#   CP1250                      woe32
+#   CP1251                      glibc solaris netbsd openbsd darwin cygwin woe32
+#   CP1252                      aix woe32
+#   CP1253                      woe32
+#   CP1254                      woe32
+#   CP1255                      glibc woe32
+#   CP1256                      woe32
+#   CP1257                      woe32
+#   GB2312                  Y   glibc aix hpux irix solaris freebsd netbsd darwin
+#   EUC-JP                  Y   glibc aix hpux irix osf solaris freebsd netbsd darwin
+#   EUC-KR                  Y   glibc aix hpux irix osf solaris freebsd netbsd darwin cygwin
+#   EUC-TW                      glibc aix hpux irix osf solaris netbsd
+#   BIG5                    Y   glibc aix hpux osf solaris freebsd netbsd darwin cygwin
+#   BIG5-HKSCS                  glibc solaris darwin
+#   GBK                         glibc aix osf solaris darwin cygwin woe32 dos
+#   GB18030                     glibc solaris netbsd darwin
+#   SHIFT_JIS               Y   hpux osf solaris freebsd netbsd darwin
+#   JOHAB                       glibc solaris woe32
+#   TIS-620                     glibc aix hpux osf solaris cygwin
+#   VISCII                  Y   glibc
+#   TCVN5712-1                  glibc
+#   ARMSCII-8                   glibc darwin
+#   GEORGIAN-PS                 glibc cygwin
+#   PT154                       glibc
+#   HP-ROMAN8                   hpux
+#   HP-ARABIC8                  hpux
+#   HP-GREEK8                   hpux
+#   HP-HEBREW8                  hpux
+#   HP-TURKISH8                 hpux
+#   HP-KANA8                    hpux
+#   DEC-KANJI                   osf
+#   DEC-HANYU                   osf
+#   UTF-8                   Y   glibc aix hpux osf solaris netbsd darwin cygwin
+#
+# Note: Names which are not marked as being a MIME name should not be used in
+# Internet protocols for information interchange (mail, news, etc.).
+#
+# Note: ASCII and ANSI_X3.4-1968 are synonymous canonical names. Applications
+# must understand both names and treat them as equivalent.
+#
+# The first argument passed to this file is the canonical host specification,
+#    CPU_TYPE-MANUFACTURER-OPERATING_SYSTEM
+# or
+#    CPU_TYPE-MANUFACTURER-KERNEL-OPERATING_SYSTEM
+
+host="$1"
++ host=x86_64-pc-linux-gnu
+os=`echo "$host" | sed -e 's/^[^-]*-[^-]*-\(.*\)$/\1/'`
++ echo x86_64-pc-linux-gnu
++ sed -e s/^[^-]*-[^-]*-\(.*\)$/\1/
++ os=linux-gnu
+echo "# This file contains a table of character encoding aliases,"
++ echo # This file contains a table of character encoding aliases,
+echo "# suitable for operating system '${os}'."
++ echo # suitable for operating system 'linux-gnu'.
+echo "# It was automatically generated from config.charset."
++ echo # It was automatically generated from config.charset.
+# List of references, updated during installation:
+echo "# Packages using this file: "
++ echo # Packages using this file: 
+case "$os" in
+  linux-gnulibc1*)
+    # Linux libc5 doesn't have nl_langinfo(CODESET); therefore
+    # localcharset.c falls back to using the full locale name
+    # from the environment variables.
+    echo "C ASCII"
+    echo "POSIX ASCII"
+    for l in af af_ZA ca ca_ES da da_DK de de_AT de_BE de_CH de_DE de_LU \
+             en en_AU en_BW en_CA en_DK en_GB en_IE en_NZ en_US en_ZA \
+             en_ZW es es_AR es_BO es_CL es_CO es_DO es_EC es_ES es_GT \
+             es_HN es_MX es_PA es_PE es_PY es_SV es_US es_UY es_VE et \
+             et_EE eu eu_ES fi fi_FI fo fo_FO fr fr_BE fr_CA fr_CH fr_FR \
+             fr_LU ga ga_IE gl gl_ES id id_ID in in_ID is is_IS it it_CH \
+             it_IT kl kl_GL nl nl_BE nl_NL no no_NO pt pt_BR pt_PT sv \
+             sv_FI sv_SE; do
+      echo "$l ISO-8859-1"
+      echo "$l.iso-8859-1 ISO-8859-1"
+      echo "$l.iso-8859-15 ISO-8859-15"
+      echo "$l.iso-8859-15@euro ISO-8859-15"
+      echo "$l@euro ISO-8859-15"
+      echo "$l.cp-437 CP437"
+      echo "$l.cp-850 CP850"
+      echo "$l.cp-1252 CP1252"
+      echo "$l.cp-1252@euro CP1252"
+      #echo "$l.atari-st ATARI-ST" # not a commonly used encoding
+      echo "$l.utf-8 UTF-8"
+      echo "$l.utf-8@euro UTF-8"
+    done
+    for l in cs cs_CZ hr hr_HR hu hu_HU pl pl_PL ro ro_RO sk sk_SK sl \
+             sl_SI sr sr_CS sr_YU; do
+      echo "$l ISO-8859-2"
+      echo "$l.iso-8859-2 ISO-8859-2"
+      echo "$l.cp-852 CP852"
+      echo "$l.cp-1250 CP1250"
+      echo "$l.utf-8 UTF-8"
+    done
+    for l in mk mk_MK ru ru_RU; do
+      echo "$l ISO-8859-5"
+      echo "$l.iso-8859-5 ISO-8859-5"
+      echo "$l.koi8-r KOI8-R"
+      echo "$l.cp-866 CP866"
+      echo "$l.cp-1251 CP1251"
+      echo "$l.utf-8 UTF-8"
+    done
+    for l in ar ar_SA; do
+      echo "$l ISO-8859-6"
+      echo "$l.iso-8859-6 ISO-8859-6"
+      echo "$l.cp-864 CP864"
+      #echo "$l.cp-868 CP868" # not a commonly used encoding
+      echo "$l.cp-1256 CP1256"
+      echo "$l.utf-8 UTF-8"
+    done
+    for l in el el_GR gr gr_GR; do
+      echo "$l ISO-8859-7"
+      echo "$l.iso-8859-7 ISO-8859-7"
+      echo "$l.cp-869 CP869"
+      echo "$l.cp-1253 CP1253"
+      echo "$l.cp-1253@euro CP1253"
+      echo "$l.utf-8 UTF-8"
+      echo "$l.utf-8@euro UTF-8"
+    done
+    for l in he he_IL iw iw_IL; do
+      echo "$l ISO-8859-8"
+      echo "$l.iso-8859-8 ISO-8859-8"
+      echo "$l.cp-862 CP862"
+      echo "$l.cp-1255 CP1255"
+      echo "$l.utf-8 UTF-8"
+    done
+    for l in tr tr_TR; do
+      echo "$l ISO-8859-9"
+      echo "$l.iso-8859-9 ISO-8859-9"
+      echo "$l.cp-857 CP857"
+      echo "$l.cp-1254 CP1254"
+      echo "$l.utf-8 UTF-8"
+    done
+    for l in lt lt_LT lv lv_LV; do
+      #echo "$l BALTIC" # not a commonly used encoding, wrong encoding name
+      echo "$l ISO-8859-13"
+    done
+    for l in ru_UA uk uk_UA; do
+      echo "$l KOI8-U"
+    done
+    for l in zh zh_CN; do
+      #echo "$l GB_2312-80" # not a commonly used encoding, wrong encoding name
+      echo "$l GB2312"
+    done
+    for l in ja ja_JP ja_JP.EUC; do
+      echo "$l EUC-JP"
+    done
+    for l in ko ko_KR; do
+      echo "$l EUC-KR"
+    done
+    for l in th th_TH; do
+      echo "$l TIS-620"
+    done
+    for l in fa fa_IR; do
+      #echo "$l ISIRI-3342" # a broken encoding
+      echo "$l.utf-8 UTF-8"
+    done
+    ;;
+  linux* | *-gnu*)
+    # With glibc-2.1 or newer, we don't need any canonicalization,
+    # because glibc has iconv and both glibc and libiconv support all
+    # GNU canonical names directly. Therefore, the Makefile does not
+    # need to install the alias file at all.
+    # The following applies only to glibc-2.0.x and older libcs.
+    echo "ISO_646.IRV:1983 ASCII"
+    ;;
+  aix*)
+    echo "ISO8859-1 ISO-8859-1"
+    echo "ISO8859-2 ISO-8859-2"
+    echo "ISO8859-5 ISO-8859-5"
+    echo "ISO8859-6 ISO-8859-6"
+    echo "ISO8859-7 ISO-8859-7"
+    echo "ISO8859-8 ISO-8859-8"
+    echo "ISO8859-9 ISO-8859-9"
+    echo "ISO8859-15 ISO-8859-15"
+    echo "IBM-850 CP850"
+    echo "IBM-856 CP856"
+    echo "IBM-921 ISO-8859-13"
+    echo "IBM-922 CP922"
+    echo "IBM-932 CP932"
+    echo "IBM-943 CP943"
+    echo "IBM-1046 CP1046"
+    echo "IBM-1124 CP1124"
+    echo "IBM-1129 CP1129"
+    echo "IBM-1252 CP1252"
+    echo "IBM-eucCN GB2312"
+    echo "IBM-eucJP EUC-JP"
+    echo "IBM-eucKR EUC-KR"
+    echo "IBM-eucTW EUC-TW"
+    echo "big5 BIG5"
+    echo "GBK GBK"
+    echo "TIS-620 TIS-620"
+    echo "UTF-8 UTF-8"
+    ;;
+  hpux*)
+    echo "iso88591 ISO-8859-1"
+    echo "iso88592 ISO-8859-2"
+    echo "iso88595 ISO-8859-5"
+    echo "iso88596 ISO-8859-6"
+    echo "iso88597 ISO-8859-7"
+    echo "iso88598 ISO-8859-8"
+    echo "iso88599 ISO-8859-9"
+    echo "iso885915 ISO-8859-15"
+    echo "roman8 HP-ROMAN8"
+    echo "arabic8 HP-ARABIC8"
+    echo "greek8 HP-GREEK8"
+    echo "hebrew8 HP-HEBREW8"
+    echo "turkish8 HP-TURKISH8"
+    echo "kana8 HP-KANA8"
+    echo "tis620 TIS-620"
+    echo "big5 BIG5"
+    echo "eucJP EUC-JP"
+    echo "eucKR EUC-KR"
+    echo "eucTW EUC-TW"
+    echo "hp15CN GB2312"
+    #echo "ccdc ?" # what is this?
+    echo "SJIS SHIFT_JIS"
+    echo "utf8 UTF-8"
+    ;;
+  irix*)
+    echo "ISO8859-1 ISO-8859-1"
+    echo "ISO8859-2 ISO-8859-2"
+    echo "ISO8859-5 ISO-8859-5"
+    echo "ISO8859-7 ISO-8859-7"
+    echo "ISO8859-9 ISO-8859-9"
+    echo "eucCN GB2312"
+    echo "eucJP EUC-JP"
+    echo "eucKR EUC-KR"
+    echo "eucTW EUC-TW"
+    ;;
+  osf*)
+    echo "ISO8859-1 ISO-8859-1"
+    echo "ISO8859-2 ISO-8859-2"
+    echo "ISO8859-4 ISO-8859-4"
+    echo "ISO8859-5 ISO-8859-5"
+    echo "ISO8859-7 ISO-8859-7"
+    echo "ISO8859-8 ISO-8859-8"
+    echo "ISO8859-9 ISO-8859-9"
+    echo "ISO8859-15 ISO-8859-15"
+    echo "cp850 CP850"
+    echo "big5 BIG5"
+    echo "dechanyu DEC-HANYU"
+    echo "dechanzi GB2312"
+    echo "deckanji DEC-KANJI"
+    echo "deckorean EUC-KR"
+    echo "eucJP EUC-JP"
+    echo "eucKR EUC-KR"
+    echo "eucTW EUC-TW"
+    echo "GBK GBK"
+    echo "KSC5601 CP949"
+    echo "sdeckanji EUC-JP"
+    echo "SJIS SHIFT_JIS"
+    echo "TACTIS TIS-620"
+    echo "UTF-8 UTF-8"
+    ;;
+  solaris*)
+    echo "646 ASCII"
+    echo "ISO8859-1 ISO-8859-1"
+    echo "ISO8859-2 ISO-8859-2"
+    echo "ISO8859-3 ISO-8859-3"
+    echo "ISO8859-4 ISO-8859-4"
+    echo "ISO8859-5 ISO-8859-5"
+    echo "ISO8859-6 ISO-8859-6"
+    echo "ISO8859-7 ISO-8859-7"
+    echo "ISO8859-8 ISO-8859-8"
+    echo "ISO8859-9 ISO-8859-9"
+    echo "ISO8859-15 ISO-8859-15"
+    echo "koi8-r KOI8-R"
+    echo "ansi-1251 CP1251"
+    echo "BIG5 BIG5"
+    echo "Big5-HKSCS BIG5-HKSCS"
+    echo "gb2312 GB2312"
+    echo "GBK GBK"
+    echo "GB18030 GB18030"
+    echo "cns11643 EUC-TW"
+    echo "5601 EUC-KR"
+    echo "ko_KR.johap92 JOHAB"
+    echo "eucJP EUC-JP"
+    echo "PCK SHIFT_JIS"
+    echo "TIS620.2533 TIS-620"
+    #echo "sun_eu_greek ?" # what is this?
+    echo "UTF-8 UTF-8"
+    ;;
+  freebsd*)
+    # FreeBSD 4.2 doesn't have nl_langinfo(CODESET); therefore
+    # localcharset.c falls back to using the full locale name
+    # from the environment variables.
+    echo "C ASCII"
+    echo "US-ASCII ASCII"
+    for l in la_LN lt_LN; do
+      echo "$l.ASCII ASCII"
+    done
+    for l in da_DK de_AT de_CH de_DE en_AU en_CA en_GB en_US es_ES \
+             fi_FI fr_BE fr_CA fr_CH fr_FR is_IS it_CH it_IT la_LN \
+             lt_LN nl_BE nl_NL no_NO pt_PT sv_SE; do
+      echo "$l.ISO_8859-1 ISO-8859-1"
+      echo "$l.DIS_8859-15 ISO-8859-15"
+    done
+    for l in cs_CZ hr_HR hu_HU la_LN lt_LN pl_PL sl_SI; do
+      echo "$l.ISO_8859-2 ISO-8859-2"
+    done
+    for l in la_LN lt_LT; do
+      echo "$l.ISO_8859-4 ISO-8859-4"
+    done
+    for l in ru_RU ru_SU; do
+      echo "$l.KOI8-R KOI8-R"
+      echo "$l.ISO_8859-5 ISO-8859-5"
+      echo "$l.CP866 CP866"
+    done
+    echo "uk_UA.KOI8-U KOI8-U"
+    echo "zh_TW.BIG5 BIG5"
+    echo "zh_TW.Big5 BIG5"
+    echo "zh_CN.EUC GB2312"
+    echo "ja_JP.EUC EUC-JP"
+    echo "ja_JP.SJIS SHIFT_JIS"
+    echo "ja_JP.Shift_JIS SHIFT_JIS"
+    echo "ko_KR.EUC EUC-KR"
+    ;;
+  netbsd*)
+    echo "646 ASCII"
+    echo "ISO8859-1 ISO-8859-1"
+    echo "ISO8859-2 ISO-8859-2"
+    echo "ISO8859-4 ISO-8859-4"
+    echo "ISO8859-5 ISO-8859-5"
+    echo "ISO8859-7 ISO-8859-7"
+    echo "ISO8859-13 ISO-8859-13"
+    echo "ISO8859-15 ISO-8859-15"
+    echo "eucCN GB2312"
+    echo "eucJP EUC-JP"
+    echo "eucKR EUC-KR"
+    echo "eucTW EUC-TW"
+    echo "BIG5 BIG5"
+    echo "SJIS SHIFT_JIS"
+    ;;
+  openbsd*)
+    echo "646 ASCII"
+    echo "ISO8859-1 ISO-8859-1"
+    echo "ISO8859-2 ISO-8859-2"
+    echo "ISO8859-4 ISO-8859-4"
+    echo "ISO8859-5 ISO-8859-5"
+    echo "ISO8859-7 ISO-8859-7"
+    echo "ISO8859-13 ISO-8859-13"
+    echo "ISO8859-15 ISO-8859-15"
+    ;;
+  darwin[56]*)
+    # Darwin 6.8 doesn't have nl_langinfo(CODESET); therefore
+    # localcharset.c falls back to using the full locale name
+    # from the environment variables.
+    echo "C ASCII"
+    for l in en_AU en_CA en_GB en_US la_LN; do
+      echo "$l.US-ASCII ASCII"
+    done
+    for l in da_DK de_AT de_CH de_DE en_AU en_CA en_GB en_US es_ES \
+             fi_FI fr_BE fr_CA fr_CH fr_FR is_IS it_CH it_IT nl_BE \
+             nl_NL no_NO pt_PT sv_SE; do
+      echo "$l ISO-8859-1"
+      echo "$l.ISO8859-1 ISO-8859-1"
+      echo "$l.ISO8859-15 ISO-8859-15"
+    done
+    for l in la_LN; do
+      echo "$l.ISO8859-1 ISO-8859-1"
+      echo "$l.ISO8859-15 ISO-8859-15"
+    done
+    for l in cs_CZ hr_HR hu_HU la_LN pl_PL sl_SI; do
+      echo "$l.ISO8859-2 ISO-8859-2"
+    done
+    for l in la_LN lt_LT; do
+      echo "$l.ISO8859-4 ISO-8859-4"
+    done
+    for l in ru_RU; do
+      echo "$l.KOI8-R KOI8-R"
+      echo "$l.ISO8859-5 ISO-8859-5"
+      echo "$l.CP866 CP866"
+    done
+    for l in bg_BG; do
+      echo "$l.CP1251 CP1251"
+    done
+    echo "uk_UA.KOI8-U KOI8-U"
+    echo "zh_TW.BIG5 BIG5"
+    echo "zh_TW.Big5 BIG5"
+    echo "zh_CN.EUC GB2312"
+    echo "ja_JP.EUC EUC-JP"
+    echo "ja_JP.SJIS SHIFT_JIS"
+    echo "ko_KR.EUC EUC-KR"
+    ;;
+  darwin*)
+    # Darwin 7.5 has nl_langinfo(CODESET), but sometimes its value is
+    # useless:
+    # - It returns the empty string when LANG is set to a locale of the
+    #   form ll_CC, although ll_CC/LC_CTYPE is a symlink to an UTF-8
+    #   LC_CTYPE file.
+    # - The environment variables LANG, LC_CTYPE, LC_ALL are not set by
+    #   the system; nl_langinfo(CODESET) returns "US-ASCII" in this case.
+    # - The documentation says:
+    #     "... all code that calls BSD system routines should ensure
+    #      that the const *char parameters of these routines are in UTF-8
+    #      encoding. All BSD system functions expect their string
+    #      parameters to be in UTF-8 encoding and nothing else."
+    #   It also says
+    #     "An additional caveat is that string parameters for files,
+    #      paths, and other file-system entities must be in canonical
+    #      UTF-8. In a canonical UTF-8 Unicode string, all decomposable
+    #      characters are decomposed ..."
+    #   but this is not true: You can pass non-decomposed UTF-8 strings
+    #   to file system functions, and it is the OS which will convert
+    #   them to decomposed UTF-8 before accessing the file system.
+    # - The Apple Terminal application displays UTF-8 by default.
+    # - However, other applications are free to use different encodings:
+    #   - xterm uses ISO-8859-1 by default.
+    #   - TextEdit uses MacRoman by default.
+    # We prefer UTF-8 over decomposed UTF-8-MAC because one should
+    # minimize the use of decomposed Unicode. Unfortunately, through the
+    # Darwin file system, decomposed UTF-8 strings are leaked into user
+    # space nevertheless.
+    # Then there are also the locales with encodings other than US-ASCII
+    # and UTF-8. These locales can be occasionally useful to users (e.g.
+    # when grepping through ISO-8859-1 encoded text files), when all their
+    # file names are in US-ASCII.
+    echo "ISO8859-1 ISO-8859-1"
+    echo "ISO8859-2 ISO-8859-2"
+    echo "ISO8859-4 ISO-8859-4"
+    echo "ISO8859-5 ISO-8859-5"
+    echo "ISO8859-7 ISO-8859-7"
+    echo "ISO8859-9 ISO-8859-9"
+    echo "ISO8859-13 ISO-8859-13"
+    echo "ISO8859-15 ISO-8859-15"
+    echo "KOI8-R KOI8-R"
+    echo "KOI8-U KOI8-U"
+    echo "CP866 CP866"
+    echo "CP949 CP949"
+    echo "CP1131 CP1131"
+    echo "CP1251 CP1251"
+    echo "eucCN GB2312"
+    echo "GB2312 GB2312"
+    echo "eucJP EUC-JP"
+    echo "eucKR EUC-KR"
+    echo "Big5 BIG5"
+    echo "Big5HKSCS BIG5-HKSCS"
+    echo "GBK GBK"
+    echo "GB18030 GB18030"
+    echo "SJIS SHIFT_JIS"
+    echo "ARMSCII-8 ARMSCII-8"
+    echo "PT154 PT154"
+    #echo "ISCII-DEV ?"
+    echo "* UTF-8"
+    ;;
+  beos* | haiku*)
+    # BeOS and Haiku have a single locale, and it has UTF-8 encoding.
+    echo "* UTF-8"
+    ;;
+  msdosdjgpp*)
+    # DJGPP 2.03 doesn't have nl_langinfo(CODESET); therefore
+    # localcharset.c falls back to using the full locale name
+    # from the environment variables.
+    echo "#"
+    echo "# The encodings given here may not all be correct."
+    echo "# If you find that the encoding given for your language and"
+    echo "# country is not the one your DOS machine actually uses, just"
+    echo "# correct it in this file, and send a mail to"
+    echo "# Juan Manuel Guerrero <juan.guerrero@gmx.de>"
+    echo "# and Bruno Haible <bruno@clisp.org>."
+    echo "#"
+    echo "C ASCII"
+    # ISO-8859-1 languages
+    echo "ca CP850"
+    echo "ca_ES CP850"
+    echo "da CP865"    # not CP850 ??
+    echo "da_DK CP865" # not CP850 ??
+    echo "de CP850"
+    echo "de_AT CP850"
+    echo "de_CH CP850"
+    echo "de_DE CP850"
+    echo "en CP850"
+    echo "en_AU CP850" # not CP437 ??
+    echo "en_CA CP850"
+    echo "en_GB CP850"
+    echo "en_NZ CP437"
+    echo "en_US CP437"
+    echo "en_ZA CP850" # not CP437 ??
+    echo "es CP850"
+    echo "es_AR CP850"
+    echo "es_BO CP850"
+    echo "es_CL CP850"
+    echo "es_CO CP850"
+    echo "es_CR CP850"
+    echo "es_CU CP850"
+    echo "es_DO CP850"
+    echo "es_EC CP850"
+    echo "es_ES CP850"
+    echo "es_GT CP850"
+    echo "es_HN CP850"
+    echo "es_MX CP850"
+    echo "es_NI CP850"
+    echo "es_PA CP850"
+    echo "es_PY CP850"
+    echo "es_PE CP850"
+    echo "es_SV CP850"
+    echo "es_UY CP850"
+    echo "es_VE CP850"
+    echo "et CP850"
+    echo "et_EE CP850"
+    echo "eu CP850"
+    echo "eu_ES CP850"
+    echo "fi CP850"
+    echo "fi_FI CP850"
+    echo "fr CP850"
+    echo "fr_BE CP850"
+    echo "fr_CA CP850"
+    echo "fr_CH CP850"
+    echo "fr_FR CP850"
+    echo "ga CP850"
+    echo "ga_IE CP850"
+    echo "gd CP850"
+    echo "gd_GB CP850"
+    echo "gl CP850"
+    echo "gl_ES CP850"
+    echo "id CP850"    # not CP437 ??
+    echo "id_ID CP850" # not CP437 ??
+    echo "is CP861"    # not CP850 ??
+    echo "is_IS CP861" # not CP850 ??
+    echo "it CP850"
+    echo "it_CH CP850"
+    echo "it_IT CP850"
+    echo "lt CP775"
+    echo "lt_LT CP775"
+    echo "lv CP775"
+    echo "lv_LV CP775"
+    echo "nb CP865"    # not CP850 ??
+    echo "nb_NO CP865" # not CP850 ??
+    echo "nl CP850"
+    echo "nl_BE CP850"
+    echo "nl_NL CP850"
+    echo "nn CP865"    # not CP850 ??
+    echo "nn_NO CP865" # not CP850 ??
+    echo "no CP865"    # not CP850 ??
+    echo "no_NO CP865" # not CP850 ??
+    echo "pt CP850"
+    echo "pt_BR CP850"
+    echo "pt_PT CP850"
+    echo "sv CP850"
+    echo "sv_SE CP850"
+    # ISO-8859-2 languages
+    echo "cs CP852"
+    echo "cs_CZ CP852"
+    echo "hr CP852"
+    echo "hr_HR CP852"
+    echo "hu CP852"
+    echo "hu_HU CP852"
+    echo "pl CP852"
+    echo "pl_PL CP852"
+    echo "ro CP852"
+    echo "ro_RO CP852"
+    echo "sk CP852"
+    echo "sk_SK CP852"
+    echo "sl CP852"
+    echo "sl_SI CP852"
+    echo "sq CP852"
+    echo "sq_AL CP852"
+    echo "sr CP852"    # CP852 or CP866 or CP855 ??
+    echo "sr_CS CP852" # CP852 or CP866 or CP855 ??
+    echo "sr_YU CP852" # CP852 or CP866 or CP855 ??
+    # ISO-8859-3 languages
+    echo "mt CP850"
+    echo "mt_MT CP850"
+    # ISO-8859-5 languages
+    echo "be CP866"
+    echo "be_BE CP866"
+    echo "bg CP866"    # not CP855 ??
+    echo "bg_BG CP866" # not CP855 ??
+    echo "mk CP866"    # not CP855 ??
+    echo "mk_MK CP866" # not CP855 ??
+    echo "ru CP866"
+    echo "ru_RU CP866"
+    echo "uk CP1125"
+    echo "uk_UA CP1125"
+    # ISO-8859-6 languages
+    echo "ar CP864"
+    echo "ar_AE CP864"
+    echo "ar_DZ CP864"
+    echo "ar_EG CP864"
+    echo "ar_IQ CP864"
+    echo "ar_IR CP864"
+    echo "ar_JO CP864"
+    echo "ar_KW CP864"
+    echo "ar_MA CP864"
+    echo "ar_OM CP864"
+    echo "ar_QA CP864"
+    echo "ar_SA CP864"
+    echo "ar_SY CP864"
+    # ISO-8859-7 languages
+    echo "el CP869"
+    echo "el_GR CP869"
+    # ISO-8859-8 languages
+    echo "he CP862"
+    echo "he_IL CP862"
+    # ISO-8859-9 languages
+    echo "tr CP857"
+    echo "tr_TR CP857"
+    # Japanese
+    echo "ja CP932"
+    echo "ja_JP CP932"
+    # Chinese
+    echo "zh_CN GBK"
+    echo "zh_TW CP950" # not CP938 ??
+    # Korean
+    echo "kr CP949"    # not CP934 ??
+    echo "kr_KR CP949" # not CP934 ??
+    # Thai
+    echo "th CP874"
+    echo "th_TH CP874"
+    # Other
+    echo "eo CP850"
+    echo "eo_EO CP850"
+    ;;
+esac
++ echo ISO_646.IRV:1983 ASCII
++ mv t-charset.alias charset.alias
++ echo   GEN      ref-add.sed
+  GEN      ref-add.sed
++ rm -f t-ref-add.sed ref-add.sed
++ sed -e /^#/d -e s/@PACKAGE@/grep/g ref-add.sin
++ mv t-ref-add.sed ref-add.sed
++ echo   GEN      ref-del.sed
+  GEN      ref-del.sed
++ rm -f t-ref-del.sed ref-del.sed
++ sed -e /^#/d -e s/@PACKAGE@/grep/g ref-del.sin
++ mv t-ref-del.sed ref-del.sed
+make[3]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/lib'
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/lib'
++ echo Making all in doc
+Making all in doc
++ test doc = .
++ local_target=all
++ CDPATH=:
++ cd doc
++ make all
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/doc'
++ echo   GEN      grep.1
+  GEN      grep.1
++ rm -f grep.1-t grep.1
++ sed s/@VERSION@/2.25/ ./grep.in.1
++ chmod a=r grep.1-t
++ mv -f grep.1-t grep.1
++ echo   GEN      fgrep.1
+  GEN      fgrep.1
++ rm -f fgrep.1-t fgrep.1
++ echo grep
++ sed s,x,x,
++ inst=grep.1
++ echo .so man1/grep.1
++ chmod a=r fgrep.1-t
++ mv -f fgrep.1-t fgrep.1
++ echo   GEN      egrep.1
+  GEN      egrep.1
++ rm -f egrep.1-t egrep.1
++ echo grep
++ sed s,x,x,
++ inst=grep.1
++ echo .so man1/grep.1
++ chmod a=r egrep.1-t
++ mv -f egrep.1-t egrep.1
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/doc'
++ echo Making all in src
+Making all in src
++ test src = .
++ local_target=all
++ CDPATH=:
++ cd src
++ make all
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/src'
++ echo   CC       grep.o
+  CC       grep.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo grep.o
++ depbase=.deps/grep
++ gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT grep.o -MD -MP -MF .deps/grep.Tpo -c -o grep.o grep.c
++ mv -f .deps/grep.Tpo .deps/grep.Po
++ echo   CC       searchutils.o
+  CC       searchutils.o
++ echo searchutils.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/searchutils
++ gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT searchutils.o -MD -MP -MF .deps/searchutils.Tpo -c -o searchutils.o searchutils.c
++ mv -f .deps/searchutils.Tpo .deps/searchutils.Po
++ echo   CC       dfa.o
+  CC       dfa.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ echo dfa.o
++ depbase=.deps/dfa
++ gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT dfa.o -MD -MP -MF .deps/dfa.Tpo -c -o dfa.o dfa.c
++ mv -f .deps/dfa.Tpo .deps/dfa.Po
++ echo   CC       dfasearch.o
+  CC       dfasearch.o
++ echo dfasearch.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/dfasearch
++ gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT dfasearch.o -MD -MP -MF .deps/dfasearch.Tpo -c -o dfasearch.o dfasearch.c
++ mv -f .deps/dfasearch.Tpo .deps/dfasearch.Po
++ echo   CC       kwset.o
+  CC       kwset.o
++ echo kwset.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/kwset
++ gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT kwset.o -MD -MP -MF .deps/kwset.Tpo -c -o kwset.o kwset.c
++ mv -f .deps/kwset.Tpo .deps/kwset.Po
++ echo   CC       kwsearch.o
+  CC       kwsearch.o
++ + sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
+echo kwsearch.o
++ depbase=.deps/kwsearch
++ gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT kwsearch.o -MD -MP -MF .deps/kwsearch.Tpo -c -o kwsearch.o kwsearch.c
++ mv -f .deps/kwsearch.Tpo .deps/kwsearch.Po
++ echo   CC       pcresearch.o
+  CC       pcresearch.o
++ echo pcresearch.o
++ sed s|[^/]*$|.deps/&|;s|\.[^.]*$||
++ depbase=.deps/pcresearch
++ gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT pcresearch.o -MD -MP -MF .deps/pcresearch.Tpo -c -o pcresearch.o pcresearch.c
++ mv -f .deps/pcresearch.Tpo .deps/pcresearch.Po
++ rm -f grep
++ echo   CCLD     grep
+  CCLD     grep
++ gcc -g -O2 -o grep grep.o searchutils.o dfa.o dfasearch.o kwset.o kwsearch.o pcresearch.o ../lib/libgreputils.a ../lib/libgreputils.a -lpcre
++ echo   GEN      egrep
+  GEN      egrep
++ echo grep
++ sed -e s,x,x,
++ grep=grep
++ option=-E
++ shell_does_substrings=set x/y && d=${1%/*} && test "$d" = x
++ sh -xv -c set x/y && d=${1%/*} && test "$d" = x
++ edit_substring=s,X,X,
++ sed -e s|[@]SHELL@|sh -xv|g -e s,X,X, -e s|[@]grep@|grep|g -e s|[@]option@|-E|g
++ chmod +x egrep-t
++ mv egrep-t egrep
++ echo   GEN      fgrep
+  GEN      fgrep
++ echo grep
++ sed -e s,x,x,
++ grep=grep
++ option=-F
++ shell_does_substrings=set x/y && d=${1%/*} && test "$d" = x
++ sh -xv -c set x/y && d=${1%/*} && test "$d" = x
++ edit_substring=s,X,X,
++ sed -e s|[@]SHELL@|sh -xv|g -e s,X,X, -e s|[@]grep@|grep|g -e s|[@]option@|-F|g
++ chmod +x fgrep-t
++ mv fgrep-t fgrep
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/src'
++ echo Making all in tests
+Making all in tests
++ test tests = .
++ local_target=all
++ CDPATH=:
++ cd tests
++ make all
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/tests'
++ echo Making all in gnulib-tests
+Making all in gnulib-tests
++ test gnulib-tests = .
++ local_target=all
++ CDPATH=:
++ cd gnulib-tests
++ make all
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
++ echo   GEN      arg-nonnull.h
+  GEN      arg-nonnull.h
++ rm -f arg-nonnull.h-t arg-nonnull.h
++ sed -n -e /GL_ARG_NONNULL/,$p
++ mv arg-nonnull.h-t arg-nonnull.h
++ echo   GEN      c++defs.h
+  GEN      c++defs.h
++ rm -f c++defs.h-t c++defs.h
++ sed -n -e /_GL_CXXDEFS/,$p
++ mv c++defs.h-t c++defs.h
++ echo   GEN      unused-parameter.h
+  GEN      unused-parameter.h
++ rm -f unused-parameter.h-t unused-parameter.h
++ sed -n -e /GL_UNUSED_PARAMETER/,$p
++ mv unused-parameter.h-t unused-parameter.h
++ echo   GEN      warn-on-use.h
+  GEN      warn-on-use.h
++ rm -f warn-on-use.h-t warn-on-use.h
++ sed -n -e /^.ifndef/,$p
++ mv warn-on-use.h-t warn-on-use.h
+make  all-recursive
++ make all-recursive
+make[3]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
++ fail=
++ target_option=k
++ has_opt=no
++ sane_makeflags=w -- SHELL=sh\ -xv
++ test -z 3
++ test -n x86_64-pc-linux-gnu
++ true
++ sane_makeflags=-w
++ skip_next=no
++ test no = yes
++ test no = yes
++ failcom=exit 1
++ dot_seen=no
++ echo all-recursive
++ sed s/-recursive//
++ target=all
++ list=.
++ echo Making all in .
+Making all in .
++ test . = .
++ dot_seen=yes
++ local_target=all-am
++ CDPATH=:
++ cd .
++ make all-am
+make[4]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
++ test yes = no
++ test -z 
+make[3]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
++ test no = no
++ make all-am
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25'
++ gzip --help
++ grep rsyncable
++ printf %s --rsyncable
++ cat ./.prev-version
++ /bin/sed -n s/^\(sc_[a-zA-Z0-9_-]*\):.*/\1/p ./maint.mk ./cfg.mk
++ ./build-aux/vc-list-files -C .
++ echo 1
++ test -f ./build-aux/git-version-gen
++ echo yes
++ test -f config.h
++ test -f config.h
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25'
++ test -z 
+make[1]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25'

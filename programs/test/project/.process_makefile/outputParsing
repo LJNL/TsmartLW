@@ -1,0 +1,3 @@
+gcc -c main.c -E -g -O0 -o /home/landq/Desktop/TsmartLW/programs/test/project/.process_makefile/line1/main.o.i
+gcc -c print.c -E -g -O0 -o /home/landq/Desktop/TsmartLW/programs/test/project/.process_makefile/line2/print.o.i
+/home/landq/Desktop/TsmartLW/programs/test/project/helloworld

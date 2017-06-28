@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT argmatch.o -MD -MP -MF .deps/argmatch.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line47/argmatch.o.i  argmatch.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT binary-io.o -MD -MP -MF .deps/binary-io.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line48/binary-io.o.i  binary-io.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT bitrotate.o -MD -MP -MF .deps/bitrotate.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line49/bitrotate.o.i  bitrotate.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT c-ctype.o -MD -MP -MF .deps/c-ctype.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line50/c-ctype.o.i  c-ctype.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT c-strcasecmp.o -MD -MP -MF .deps/c-strcasecmp.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line51/c-strcasecmp.o.i  c-strcasecmp.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT c-strncasecmp.o -MD -MP -MF .deps/c-strncasecmp.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line52/c-strncasecmp.o.i  c-strncasecmp.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cloexec.o -MD -MP -MF .deps/cloexec.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line53/cloexec.o.i  cloexec.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT close-stream.o -MD -MP -MF .deps/close-stream.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line54/close-stream.o.i  close-stream.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT closeout.o -MD -MP -MF .deps/closeout.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line55/closeout.o.i  closeout.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cycle-check.o -MD -MP -MF .deps/cycle-check.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line56/cycle-check.o.i  cycle-check.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT opendir-safer.o -MD -MP -MF .deps/opendir-safer.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line57/opendir-safer.o.i  opendir-safer.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT dirname-lgpl.o -MD -MP -MF .deps/dirname-lgpl.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line58/dirname-lgpl.o.i  dirname-lgpl.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT basename-lgpl.o -MD -MP -MF .deps/basename-lgpl.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line59/basename-lgpl.o.i  basename-lgpl.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT stripslash.o -MD -MP -MF .deps/stripslash.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line60/stripslash.o.i  stripslash.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT exclude.o -MD -MP -MF .deps/exclude.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line61/exclude.o.i  exclude.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT exitfail.o -MD -MP -MF .deps/exitfail.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line62/exitfail.o.i  exitfail.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT creat-safer.o -MD -MP -MF .deps/creat-safer.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line63/creat-safer.o.i  creat-safer.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT open-safer.o -MD -MP -MF .deps/open-safer.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line64/open-safer.o.i  open-safer.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fd-hook.o -MD -MP -MF .deps/fd-hook.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line65/fd-hook.o.i  fd-hook.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT filenamecat-lgpl.o -MD -MP -MF .deps/filenamecat-lgpl.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line66/filenamecat-lgpl.o.i  filenamecat-lgpl.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT hard-locale.o -MD -MP -MF .deps/hard-locale.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line67/hard-locale.o.i  hard-locale.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT hash.o -MD -MP -MF .deps/hash.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line68/hash.o.i  hash.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT i-ring.o -MD -MP -MF .deps/i-ring.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line69/i-ring.o.i  i-ring.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT localcharset.o -MD -MP -MF .deps/localcharset.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line70/localcharset.o.i  localcharset.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT glthread/lock.o -MD -MP -MF glthread/.deps/lock.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line71/lock.o.i  glthread/lock.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT malloca.o -MD -MP -MF .deps/malloca.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line72/malloca.o.i  malloca.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbchar.o -MD -MP -MF .deps/mbchar.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line73/mbchar.o.i  mbchar.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbiter.o -MD -MP -MF .deps/mbiter.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line74/mbiter.o.i  mbiter.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbscasecmp.o -MD -MP -MF .deps/mbscasecmp.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line75/mbscasecmp.o.i  mbscasecmp.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbslen.o -MD -MP -MF .deps/mbslen.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line76/mbslen.o.i  mbslen.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbsstr.o -MD -MP -MF .deps/mbsstr.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line77/mbsstr.o.i  mbsstr.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbuiter.o -MD -MP -MF .deps/mbuiter.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line78/mbuiter.o.i  mbuiter.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT memchr2.o -MD -MP -MF .deps/memchr2.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line79/memchr2.o.i  memchr2.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT openat-die.o -MD -MP -MF .deps/openat-die.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line80/openat-die.o.i  openat-die.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT openat-safer.o -MD -MP -MF .deps/openat-safer.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line81/openat-safer.o.i  openat-safer.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT progname.o -MD -MP -MF .deps/progname.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line82/progname.o.i  progname.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT propername.o -MD -MP -MF .deps/propername.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line83/propername.o.i  propername.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT quotearg.o -MD -MP -MF .deps/quotearg.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line84/quotearg.o.i  quotearg.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT safe-read.o -MD -MP -MF .deps/safe-read.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line85/safe-read.o.i  safe-read.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT save-cwd.o -MD -MP -MF .deps/save-cwd.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line86/save-cwd.o.i  save-cwd.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT striconv.o -MD -MP -MF .deps/striconv.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line87/striconv.o.i  striconv.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT strnlen1.o -MD -MP -MF .deps/strnlen1.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line88/strnlen1.o.i  strnlen1.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT glthread/threadlib.o -MD -MP -MF glthread/.deps/threadlib.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line89/threadlib.o.i  glthread/threadlib.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT trim.o -MD -MP -MF .deps/trim.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line90/trim.o.i  trim.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistd.o -MD -MP -MF .deps/unistd.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line91/unistd.o.i  unistd.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT dup-safer.o -MD -MP -MF .deps/dup-safer.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line92/dup-safer.o.i  dup-safer.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fd-safer.o -MD -MP -MF .deps/fd-safer.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line93/fd-safer.o.i  fd-safer.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT pipe-safer.o -MD -MP -MF .deps/pipe-safer.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line94/pipe-safer.o.i  pipe-safer.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistr/u8-mbtoucr.o -MD -MP -MF unistr/.deps/u8-mbtoucr.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line95/u8-mbtoucr.o.i  unistr/u8-mbtoucr.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistr/u8-uctomb.o -MD -MP -MF unistr/.deps/u8-uctomb.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line96/u8-uctomb.o.i  unistr/u8-uctomb.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistr/u8-uctomb-aux.o -MD -MP -MF unistr/.deps/u8-uctomb-aux.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line97/u8-uctomb-aux.o.i  unistr/u8-uctomb-aux.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT uniwidth/width.o -MD -MP -MF uniwidth/.deps/width.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line98/width.o.i  uniwidth/width.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT version-etc.o -MD -MP -MF .deps/version-etc.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line99/version-etc.o.i  version-etc.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT version-etc-fsf.o -MD -MP -MF .deps/version-etc-fsf.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line100/version-etc-fsf.o.i  version-etc-fsf.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT wctype-h.o -MD -MP -MF .deps/wctype-h.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line101/wctype-h.o.i  wctype-h.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xmalloc.o -MD -MP -MF .deps/xmalloc.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line102/xmalloc.o.i  xmalloc.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xalloc-die.o -MD -MP -MF .deps/xalloc-die.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line103/xalloc-die.o.i  xalloc-die.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstriconv.o -MD -MP -MF .deps/xstriconv.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line104/xstriconv.o.i  xstriconv.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtoimax.o -MD -MP -MF .deps/xstrtoimax.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line105/xstrtoimax.o.i  xstrtoimax.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtol.o -MD -MP -MF .deps/xstrtol.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line106/xstrtol.o.i  xstrtol.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtoul.o -MD -MP -MF .deps/xstrtoul.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line107/xstrtoul.o.i  xstrtoul.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtol-error.o -MD -MP -MF .deps/xstrtol-error.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line108/xstrtol-error.o.i  xstrtol-error.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT colorize.o -MD -MP -MF .deps/colorize.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line109/colorize.o.i  colorize.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT chdir-long.o -MD -MP -MF .deps/chdir-long.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line110/chdir-long.o.i  chdir-long.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fcntl.o -MD -MP -MF .deps/fcntl.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line111/fcntl.o.i  fcntl.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fts.o -MD -MP -MF .deps/fts.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line112/fts.o.i  fts.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbrlen.o -MD -MP -MF .deps/mbrlen.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line113/mbrlen.o.i  mbrlen.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbrtowc.o -MD -MP -MF .deps/mbrtowc.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line114/mbrtowc.o.i  mbrtowc.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT obstack.o -MD -MP -MF .deps/obstack.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line115/obstack.o.i  obstack.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT openat-proc.o -MD -MP -MF .deps/openat-proc.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line116/openat-proc.o.i  openat-proc.c -E -g -O0
+
+
+
+
+
+
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT grep.o -MD -MP -MF .deps/grep.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line123/grep.o.i  grep.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT searchutils.o -MD -MP -MF .deps/searchutils.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line124/searchutils.o.i  searchutils.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT dfa.o -MD -MP -MF .deps/dfa.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line125/dfa.o.i  dfa.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT dfasearch.o -MD -MP -MF .deps/dfasearch.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line126/dfasearch.o.i  dfasearch.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT kwset.o -MD -MP -MF .deps/kwset.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line127/kwset.o.i  kwset.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT kwsearch.o -MD -MP -MF .deps/kwsearch.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line128/kwsearch.o.i  kwsearch.c -E -g -O0
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT pcresearch.o -MD -MP -MF .deps/pcresearch.Tpo -c -o /home/landq/Desktop/tool/real_world/grep-2.25/.process_makefile/line129/pcresearch.o.i  pcresearch.c -E -g -O0
+/home/landq/Desktop/tool/real_world/grep-2.25/src/grep
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

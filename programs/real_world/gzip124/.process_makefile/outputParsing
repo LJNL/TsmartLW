@@ -1,0 +1,15 @@
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O gzip.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line2/gzip.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O zip.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line3/zip.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O deflate.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line4/deflate.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O trees.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line5/trees.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O bits.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line6/bits.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O unzip.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line7/unzip.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O inflate.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line8/inflate.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O util.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line9/util.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O crypt.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line10/crypt.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O lzw.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line11/lzw.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O unlzw.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line12/unlzw.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O unpack.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line13/unpack.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O unlzh.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line14/unlzh.o.i
+gcc -c -DSTDC_HEADERS=1 -DHAVE_UNISTD_H=1 -DDIRENT=1 -O getopt.c -E -g -O0 -o /home/landq/Desktop/tool/real_world/gzip124/.process_makefile/line15/getopt.o.i
+/home/landq/Desktop/tool/real_world/gzip124/gzip

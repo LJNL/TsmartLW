@@ -1,0 +1,107 @@
+make  all-recursive
+make[1]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25'
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/po'
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/lib'
+make  all-am
+make[3]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/lib'
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT argmatch.o -MD -MP -MF .deps/argmatch.Tpo -c -o argmatch.o argmatch.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT binary-io.o -MD -MP -MF .deps/binary-io.Tpo -c -o binary-io.o binary-io.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT bitrotate.o -MD -MP -MF .deps/bitrotate.Tpo -c -o bitrotate.o bitrotate.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT c-ctype.o -MD -MP -MF .deps/c-ctype.Tpo -c -o c-ctype.o c-ctype.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT c-strcasecmp.o -MD -MP -MF .deps/c-strcasecmp.Tpo -c -o c-strcasecmp.o c-strcasecmp.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT c-strncasecmp.o -MD -MP -MF .deps/c-strncasecmp.Tpo -c -o c-strncasecmp.o c-strncasecmp.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cloexec.o -MD -MP -MF .deps/cloexec.Tpo -c -o cloexec.o cloexec.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT close-stream.o -MD -MP -MF .deps/close-stream.Tpo -c -o close-stream.o close-stream.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT closeout.o -MD -MP -MF .deps/closeout.Tpo -c -o closeout.o closeout.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cycle-check.o -MD -MP -MF .deps/cycle-check.Tpo -c -o cycle-check.o cycle-check.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT opendir-safer.o -MD -MP -MF .deps/opendir-safer.Tpo -c -o opendir-safer.o opendir-safer.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT dirname-lgpl.o -MD -MP -MF .deps/dirname-lgpl.Tpo -c -o dirname-lgpl.o dirname-lgpl.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT basename-lgpl.o -MD -MP -MF .deps/basename-lgpl.Tpo -c -o basename-lgpl.o basename-lgpl.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT stripslash.o -MD -MP -MF .deps/stripslash.Tpo -c -o stripslash.o stripslash.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT exclude.o -MD -MP -MF .deps/exclude.Tpo -c -o exclude.o exclude.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT exitfail.o -MD -MP -MF .deps/exitfail.Tpo -c -o exitfail.o exitfail.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT creat-safer.o -MD -MP -MF .deps/creat-safer.Tpo -c -o creat-safer.o creat-safer.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT open-safer.o -MD -MP -MF .deps/open-safer.Tpo -c -o open-safer.o open-safer.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fd-hook.o -MD -MP -MF .deps/fd-hook.Tpo -c -o fd-hook.o fd-hook.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT filenamecat-lgpl.o -MD -MP -MF .deps/filenamecat-lgpl.Tpo -c -o filenamecat-lgpl.o filenamecat-lgpl.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT hard-locale.o -MD -MP -MF .deps/hard-locale.Tpo -c -o hard-locale.o hard-locale.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT hash.o -MD -MP -MF .deps/hash.Tpo -c -o hash.o hash.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT i-ring.o -MD -MP -MF .deps/i-ring.Tpo -c -o i-ring.o i-ring.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT localcharset.o -MD -MP -MF .deps/localcharset.Tpo -c -o localcharset.o localcharset.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT glthread/lock.o -MD -MP -MF glthread/.deps/lock.Tpo -c -o glthread/lock.o glthread/lock.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT malloca.o -MD -MP -MF .deps/malloca.Tpo -c -o malloca.o malloca.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbchar.o -MD -MP -MF .deps/mbchar.Tpo -c -o mbchar.o mbchar.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbiter.o -MD -MP -MF .deps/mbiter.Tpo -c -o mbiter.o mbiter.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbscasecmp.o -MD -MP -MF .deps/mbscasecmp.Tpo -c -o mbscasecmp.o mbscasecmp.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbslen.o -MD -MP -MF .deps/mbslen.Tpo -c -o mbslen.o mbslen.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbsstr.o -MD -MP -MF .deps/mbsstr.Tpo -c -o mbsstr.o mbsstr.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbuiter.o -MD -MP -MF .deps/mbuiter.Tpo -c -o mbuiter.o mbuiter.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT memchr2.o -MD -MP -MF .deps/memchr2.Tpo -c -o memchr2.o memchr2.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT openat-die.o -MD -MP -MF .deps/openat-die.Tpo -c -o openat-die.o openat-die.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT openat-safer.o -MD -MP -MF .deps/openat-safer.Tpo -c -o openat-safer.o openat-safer.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT progname.o -MD -MP -MF .deps/progname.Tpo -c -o progname.o progname.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT propername.o -MD -MP -MF .deps/propername.Tpo -c -o propername.o propername.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT quotearg.o -MD -MP -MF .deps/quotearg.Tpo -c -o quotearg.o quotearg.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT safe-read.o -MD -MP -MF .deps/safe-read.Tpo -c -o safe-read.o safe-read.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT save-cwd.o -MD -MP -MF .deps/save-cwd.Tpo -c -o save-cwd.o save-cwd.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT striconv.o -MD -MP -MF .deps/striconv.Tpo -c -o striconv.o striconv.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT strnlen1.o -MD -MP -MF .deps/strnlen1.Tpo -c -o strnlen1.o strnlen1.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT glthread/threadlib.o -MD -MP -MF glthread/.deps/threadlib.Tpo -c -o glthread/threadlib.o glthread/threadlib.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT trim.o -MD -MP -MF .deps/trim.Tpo -c -o trim.o trim.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistd.o -MD -MP -MF .deps/unistd.Tpo -c -o unistd.o unistd.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT dup-safer.o -MD -MP -MF .deps/dup-safer.Tpo -c -o dup-safer.o dup-safer.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fd-safer.o -MD -MP -MF .deps/fd-safer.Tpo -c -o fd-safer.o fd-safer.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT pipe-safer.o -MD -MP -MF .deps/pipe-safer.Tpo -c -o pipe-safer.o pipe-safer.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistr/u8-mbtoucr.o -MD -MP -MF unistr/.deps/u8-mbtoucr.Tpo -c -o unistr/u8-mbtoucr.o unistr/u8-mbtoucr.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistr/u8-uctomb.o -MD -MP -MF unistr/.deps/u8-uctomb.Tpo -c -o unistr/u8-uctomb.o unistr/u8-uctomb.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT unistr/u8-uctomb-aux.o -MD -MP -MF unistr/.deps/u8-uctomb-aux.Tpo -c -o unistr/u8-uctomb-aux.o unistr/u8-uctomb-aux.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT uniwidth/width.o -MD -MP -MF uniwidth/.deps/width.Tpo -c -o uniwidth/width.o uniwidth/width.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT version-etc.o -MD -MP -MF .deps/version-etc.Tpo -c -o version-etc.o version-etc.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT version-etc-fsf.o -MD -MP -MF .deps/version-etc-fsf.Tpo -c -o version-etc-fsf.o version-etc-fsf.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT wctype-h.o -MD -MP -MF .deps/wctype-h.Tpo -c -o wctype-h.o wctype-h.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xmalloc.o -MD -MP -MF .deps/xmalloc.Tpo -c -o xmalloc.o xmalloc.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xalloc-die.o -MD -MP -MF .deps/xalloc-die.Tpo -c -o xalloc-die.o xalloc-die.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstriconv.o -MD -MP -MF .deps/xstriconv.Tpo -c -o xstriconv.o xstriconv.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtoimax.o -MD -MP -MF .deps/xstrtoimax.Tpo -c -o xstrtoimax.o xstrtoimax.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtol.o -MD -MP -MF .deps/xstrtol.Tpo -c -o xstrtol.o xstrtol.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtoul.o -MD -MP -MF .deps/xstrtoul.Tpo -c -o xstrtoul.o xstrtoul.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT xstrtol-error.o -MD -MP -MF .deps/xstrtol-error.Tpo -c -o xstrtol-error.o xstrtol-error.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT colorize.o -MD -MP -MF .deps/colorize.Tpo -c -o colorize.o colorize.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT chdir-long.o -MD -MP -MF .deps/chdir-long.Tpo -c -o chdir-long.o chdir-long.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fcntl.o -MD -MP -MF .deps/fcntl.Tpo -c -o fcntl.o fcntl.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT fts.o -MD -MP -MF .deps/fts.Tpo -c -o fts.o fts.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbrlen.o -MD -MP -MF .deps/mbrlen.Tpo -c -o mbrlen.o mbrlen.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mbrtowc.o -MD -MP -MF .deps/mbrtowc.Tpo -c -o mbrtowc.o mbrtowc.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT obstack.o -MD -MP -MF .deps/obstack.Tpo -c -o obstack.o obstack.c
+gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT openat-proc.o -MD -MP -MF .deps/openat-proc.Tpo -c -o openat-proc.o openat-proc.c
+ar cr libgreputils.a argmatch.o binary-io.o bitrotate.o c-ctype.o c-strcasecmp.o c-strncasecmp.o cloexec.o close-stream.o closeout.o cycle-check.o opendir-safer.o dirname-lgpl.o basename-lgpl.o stripslash.o exclude.o exitfail.o creat-safer.o open-safer.o fd-hook.o filenamecat-lgpl.o hard-locale.o hash.o i-ring.o localcharset.o glthread/lock.o malloca.o mbchar.o mbiter.o mbscasecmp.o mbslen.o mbsstr.o mbuiter.o memchr2.o openat-die.o openat-safer.o progname.o propername.o quotearg.o safe-read.o save-cwd.o striconv.o strnlen1.o glthread/threadlib.o trim.o unistd.o dup-safer.o fd-safer.o pipe-safer.o unistr/u8-mbtoucr.o unistr/u8-uctomb.o unistr/u8-uctomb-aux.o uniwidth/width.o version-etc.o version-etc-fsf.o wctype-h.o xmalloc.o xalloc-die.o xstriconv.o xstrtoimax.o xstrtol.o xstrtoul.o xstrtol-error.o colorize.o chdir-long.o fcntl.o fts.o mbrlen.o mbrtowc.o obstack.o openat-proc.o
+make[3]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/lib'
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/lib'
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/doc'
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/doc'
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/src'
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT grep.o -MD -MP -MF .deps/grep.Tpo -c -o grep.o grep.c
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT searchutils.o -MD -MP -MF .deps/searchutils.Tpo -c -o searchutils.o searchutils.c
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT dfa.o -MD -MP -MF .deps/dfa.Tpo -c -o dfa.o dfa.c
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT dfasearch.o -MD -MP -MF .deps/dfasearch.Tpo -c -o dfasearch.o dfasearch.c
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT kwset.o -MD -MP -MF .deps/kwset.Tpo -c -o kwset.o kwset.c
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT kwsearch.o -MD -MP -MF .deps/kwsearch.Tpo -c -o kwsearch.o kwsearch.c
+gcc -DHAVE_CONFIG_H -I. -I.. -I../lib -I../lib -g -O2 -MT pcresearch.o -MD -MP -MF .deps/pcresearch.Tpo -c -o pcresearch.o pcresearch.c
+gcc -g -O2 -o grep grep.o searchutils.o dfa.o dfasearch.o kwset.o kwsearch.o pcresearch.o ../lib/libgreputils.a ../lib/libgreputils.a -lpcre
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/src'
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/tests'
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
+make  all-recursive
+make[3]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
+make[4]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
+make[3]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25/gnulib-tests'
+make[2]: Entering directory '/home/landq/Desktop/tool/real_world/grep-2.25'
+make[2]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25'
+make[1]: Leaving directory '/home/landq/Desktop/tool/real_world/grep-2.25'
